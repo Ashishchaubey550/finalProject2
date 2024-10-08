@@ -21,3 +21,14 @@ var product_view = document.querySelector("#view-product")
             top:dets.y-30
         })
     })
+
+
+
+    var loader = document.querySelector("#preloader");
+    var mainContent = document.querySelector("#main");
+    
+    setTimeout(function() {
+        loader.style.top = "-100%";
+        mainContent.classList.add('visible'); // Show the main content
+    }, 3500);
+    
