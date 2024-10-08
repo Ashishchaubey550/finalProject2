@@ -1,0 +1,573 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+#main{
+    position: relative;
+    z-index: 10;
+}
+#herosection{
+    height: 160vh;
+    width: 100%;
+    background-color: whitesmoke;    
+    position: relative;
+}
+#page1{
+    background-color: whitesmoke;
+    width: 100%;
+}
+#page2{
+    height: 80vh;
+    width: 100%;
+}
+nav{
+    background-color: whitesmoke;
+    padding: 2vw 2vw;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#nav-part2{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    text-transform: uppercase;
+}
+#nav-part2  a{
+    color: #032a25;
+}
+
+#nav-part2 h1{
+    padding: 10px 20px;
+    border: 1px solid #e0aa3e;
+    border-radius: 50px;
+    color: #032a25;
+    font-size: 15px;
+
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    transition: all ease 0.4s;
+
+}
+#nav-part2 h1::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #032a25;
+    left: 0;
+    bottom: -100%;
+    transition: all ease 0.4s;
+    border-radius: 50%;
+}
+#nav-part2 h1:hover::after{
+    bottom: 0;
+    border-radius: 0;
+}
+#nav-part2 h1 a{
+    text-decoration: none;
+    z-index: 9;
+    position: relative;
+}
+#nav-part2 h1:hover a{
+    color: #e0aa3e;
+}
+#polls_bollards {
+    width: 100%;
+    height: 90vh;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly; */
+}
+
+#polls_img, #bollards_img , #LEDPostTop_img , #LEDDropDown_img {
+    position: relative;
+    height: 65vh;
+    width: 80%;
+    overflow: hidden; /* Add this to hide overflow */
+}
+
+#polls_img img, #bollards_img img  , #LEDPostTop_img img , #LEDDropDown_img img{
+    height: 65vh;
+    width: 100%;
+    transition: transform 0.3s ease-in; 
+}
+
+#polls_img:hover img {
+    content: url('../AssertsAll/decor.poles/light_poles.jpg'); /* Change image on hover */
+    transform: scale(1.1) translateY(-15px);
+}
+
+#bollards_img:hover img {
+    content: url('../AssertsAll/brackets/light_brackets.jpg'); /* Change image on hover */
+    transform: scale(1.1) translateY(-15px);
+}
+#LEDPostTop_img:hover img {
+    content: url('../AssertsAll/ledposttop/light_LED\ Post\ top.jpg'); /* Change image on hover */
+    transform: scale(1.1) translateY(-15px);
+}
+#LEDDropDown_img:hover img {
+    content: url('../AssertsAll/leddropdown/light_LED\ Drop\ Down.jpg'); /* Change image on hover */
+    transform: scale(1.1) translateY(-15px);
+}
+/* LEDDropDown_img */
+.hover-text {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    padding: 8px;
+    color: gray;
+    opacity: 0;
+    font-size: 4vh;
+    bottom: 7%; /* Adjust as needed */
+    left: 60%;
+    transform: translateX(-50%); /* Center the text */
+    transition: opacity 0.3s ease-in, transform 0.3s ease-in;
+}
+
+#bollards_img:hover .hover-text,
+#LEDPostTop_img:hover .hover-text,
+#LEDDropDown_img:hover .hover-text,
+#polls_img:hover .hover-text {
+    opacity: 1; /* Show text on hover */
+    transform: translateY(0); /* Optional: adjust position */
+}
+/* style.css */
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000; /* Black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it covers everything */
+}
+#footer{
+    position: fixed;
+    z-index: 9;
+    height: 100vh;
+    bottom: 0;
+    width: 100vw;
+    color: #e0aa3e;
+    background-color: #063e37;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#footer_bottom img{
+    height: 8vh;
+    width: 5vw;
+}
+#footer_bottom{
+    border-top: 1px solid #dadada;
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#contact_details{
+    cursor: pointer;
+    margin-left: 35vw;
+    height: 30vh;
+    width: 100%;
+    font-size: 1.7vh;
+    line-height: 4vh;
+}
+#contant_page{
+    height: 30vh;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+}
+#contant_page a:hover {
+    color: #e0aa3e; /* Change to gold-like color on hover */
+    text-decoration: underline; /* Optional: underline the link */
+    z-index: 999;
+}
+#footer_div{
+    height: 30vh;
+    width: 100%;
+    margin-bottom: 10vh;
+    display: flex;
+    z-index: 101;
+    justify-content: space-around;
+}
+#footer h1{
+    font-size: 19.3vh;
+    text-transform: uppercase;
+}
+#polls_bollards {
+    margin-top: 50px;
+    display: grid;
+    gap: 30px; 
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    justify-items: center;
+}
+@media only screen and (max-width: 375px) {
+    #main{
+        position: relative;
+        z-index: 10;
+    }
+    #herosection{
+        height: 198%;
+        width: 100vh;
+        /* background-color: rgb(13, 227, 88); */
+        position: relative;
+
+    }
+    #page2{
+        height: 100vh;
+        width: 100%;
+    }
+    nav{
+        background-color: whitesmoke;
+        padding: 2vw 2vw;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    #nav-part2{
+        display: flex;
+        align-items: center;
+        gap: 1vw;
+        text-transform: uppercase;
+    }
+    #nav-part2  a{
+        color: #032a25;
+    }
+    
+    #nav-part2 h1{
+        padding: 10px 20px;
+        border: 1px solid #e0aa3e;
+        border-radius: 50px;
+        color: #032a25;
+        font-size: 15px;
+    
+        font-weight: 500;
+        position: relative;
+        overflow: hidden;
+        transition: all ease 0.4s;
+    
+    }
+    #nav-part2 h1::after{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: #032a25;
+        left: 0;
+        bottom: -100%;
+        transition: all ease 0.4s;
+        border-radius: 50%;
+    }
+    #nav-part2 h1:hover::after{
+        bottom: 0;
+        border-radius: 0;
+    }
+    #nav-part2 h1 a{
+        text-decoration: none;
+        z-index: 9;
+        position: relative;
+    }
+    #nav-part2 h1:hover a{
+        color: #e0aa3e;
+    }
+    #polls_bollards {
+        height: 205vh; 
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #polls_img, #bollards_img {
+        width: 70vh; 
+        height: 200%; 
+        padding-top: 50px;
+    }
+
+    #polls_img img, #bollards_img img {
+        width: fit-content; 
+        height: 100%; 
+        object-fit: cover; 
+    }
+    #polls_img:hover img {
+        content: url('/AssertsAll/poles/light_poles.jpg'); /* Change image on hover */
+        transform: scale(1.1) translateY(-15px);
+    }
+    
+    #bollards_img:hover img {
+        content: url('/AssertsAll/garden_lights/light_garden\ lights.jpg'); /* Change image on hover */
+        transform: scale(1.1) translateY(-15px);
+    }
+    .hover-text {
+        position: absolute;
+        text-align: center;
+        justify-content: center;
+        padding: 8px;
+        color: gray;
+        opacity: 0;
+        font-size: 4vh;
+        bottom: 7%; /* Adjust as needed */
+        left: 60%;
+        transform: translateX(-50%); /* Center the text */
+        transition: opacity 0.3s ease-in, transform 0.3s ease-in;
+    }
+    
+    #bollards_img:hover .hover-text,
+    #polls_img:hover .hover-text {
+        opacity: 1; /* Show text on hover */
+        transform: translateY(0); /* Optional: adjust position */
+    }
+    /* style.css */
+    .preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000; /* Black background */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000; /* Ensure it covers everything */
+    }
+    #footer{
+        position: fixed;
+        z-index: 9;
+        height: 100vh;
+        bottom: 0;
+        width: 100%;
+        color: #e0aa3e;
+        background-color: #063e37;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    #footer_bottom img{
+        height: 8vh;
+        width: 5vw;
+    }
+    #footer_bottom{
+        border-top: 1px solid #dadada;
+        height: 9vh;
+        width: 100%;
+    }
+    #contact_details{
+        cursor: pointer;
+        height: 30vh;
+        width: 100vh;
+        font-size: 3vh;
+        line-height: 4vh;
+    }
+    #contact_details h2 a{
+        text-decoration: none;
+        color: #e0aa3e;
+        cursor: pointer;
+    }
+    #footer_div{
+        height: 30vh;
+        width: 100%;
+        margin-bottom: 10vh;
+        z-index: 101;
+    }
+    #footer h1{
+        font-size: 9.9vh;
+        text-transform: uppercase;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #main{
+        position: relative;
+        z-index: 10;
+    }
+    #herosection{
+        height: 198%;
+        width: 100vh;
+        /* background-color: rgb(13, 227, 88); */
+        position: relative;
+
+    }
+    #page2{
+        height: 100vh;
+        width: 100%;
+    }
+    nav{
+        background-color: whitesmoke;
+        padding: 2vw 2vw;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    #nav-part2{
+        display: flex;
+        align-items: center;
+        gap: 1vw;
+        text-transform: uppercase;
+    }
+    #nav-part2  a{
+        color: #032a25;
+    }
+    
+    #nav-part2 h1{
+        padding: 10px 20px;
+        border: 1px solid #e0aa3e;
+        border-radius: 50px;
+        color: #032a25;
+        font-size: 15px;
+    
+        font-weight: 500;
+        position: relative;
+        overflow: hidden;
+        transition: all ease 0.4s;
+    
+    }
+    #nav-part2 h1::after{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: #032a25;
+        left: 0;
+        bottom: -100%;
+        transition: all ease 0.4s;
+        border-radius: 50%;
+    }
+    #nav-part2 h1:hover::after{
+        bottom: 0;
+        border-radius: 0;
+    }
+    #nav-part2 h1 a{
+        text-decoration: none;
+        z-index: 9;
+        position: relative;
+    }
+    #nav-part2 h1:hover a{
+        color: #e0aa3e;
+    }
+    #polls_bollards {
+        height: 205vh; 
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #polls_img, #bollards_img {
+        width: 70vh; 
+        height: 200%; 
+        padding-top: 50px;
+    }
+
+    #polls_img img, #bollards_img img {
+        width: fit-content; 
+        height: 100%; 
+        object-fit: cover; 
+    }
+    #polls_img:hover img {
+        content: url('/AssertsAll/poles/light_poles.jpg'); /* Change image on hover */
+        transform: scale(1.1) translateY(-15px);
+    }
+    
+    #bollards_img:hover img {
+        content: url('/AssertsAll/garden_lights/light_garden\ lights.jpg'); /* Change image on hover */
+        transform: scale(1.1) translateY(-15px);
+    }
+    .hover-text {
+        position: absolute;
+        text-align: center;
+        justify-content: center;
+        padding: 8px;
+        color: gray;
+        opacity: 0;
+        font-size: 4vh;
+        bottom: 7%; /* Adjust as needed */
+        left: 60%;
+        transform: translateX(-50%); /* Center the text */
+        transition: opacity 0.3s ease-in, transform 0.3s ease-in;
+    }
+    
+    #bollards_img:hover .hover-text,
+    #polls_img:hover .hover-text {
+        opacity: 1; /* Show text on hover */
+        transform: translateY(0); /* Optional: adjust position */
+    }
+    /* style.css */
+    .preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000; /* Black background */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000; /* Ensure it covers everything */
+    }
+    #footer{
+        position: fixed;
+        z-index: 9;
+        height: 100vh;
+        bottom: 0;
+        width: 100%;
+        color: #e0aa3e;
+        background-color: #063e37;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    #footer_bottom img{
+        height: 8vh;
+        width: 5vw;
+    }
+    #footer_bottom{
+        border-top: 1px solid #dadada;
+        height: 9vh;
+        width: 100%;
+    }
+    #contact_details{
+        cursor: pointer;
+        height: 30vh;
+        width: 100vh;
+        font-size: 3vh;
+        line-height: 4vh;
+    }
+    #contact_details h2 a{
+        text-decoration: none;
+        color: #e0aa3e;
+        cursor: pointer;
+    }
+    #footer_div{
+        height: 30vh;
+        width: 100%;
+        margin-bottom: 10vh;
+        z-index: 101;
+    }
+    #footer h1{
+        font-size: 9.9vh;
+        text-transform: uppercase;
+    }
+}
