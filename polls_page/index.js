@@ -1,3 +1,17 @@
+var loader = document.querySelector("#preloader");
+var mainContent = document.querySelector("#main");
+
+// Use the window onload event to hide the preloader when all content (including images) is fully loaded
+window.addEventListener('load', function() {
+    loader.style.top = "-100%";
+    mainContent.classList.add('visible'); // Show the main content
+});
+
+
+
+
+
+
 document.addEventListener("DOMContentLoaded", function() {
     gsap.from("#polls_img", {
         opacity: 1,
@@ -15,14 +29,8 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-var loader = document.querySelector("#preloader");
-var mainContent = document.querySelector("#main");
 
-// Use the window onload event to hide the preloader when all content (including images) is fully loaded
-window.addEventListener('load', function() {
-    loader.style.top = "-100%";
-    mainContent.classList.add('visible'); // Show the main content
-});
+
 
 window.addEventListener('resize', function() {
     const herosection = document.getElementById('herosection');

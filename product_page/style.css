@@ -17,7 +17,7 @@ body.loading #main {
     background-color: #032a25;
     position: fixed;
     z-index: 2999;
-    transition: all linear 0.5s;
+    transition: all ease-in 0.5s;
     top: 0;
     left: 0;
     text-transform: uppercase;
