@@ -92,9 +92,9 @@
 
 
 .swapper2{
-    height: 90vh;
+    height: 100vh;
     width: 100%;
-    background-color: rgb(231, 12, 12);
+    background-color: whitesmoke;
     position: relative;
 }
 .swipers {
@@ -245,7 +245,6 @@ body.loading #main {
 #page1{
     background-color: whitesmoke;
     width: 100%;
-    background: red;
 }
 #page2{
     height: 90vh;
