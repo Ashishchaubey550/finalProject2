@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Plain Light";
+
 }
 
 html, body {
@@ -175,10 +177,10 @@ nav{
     position: absolute;
     text-align: center;
     justify-content: center;
-    padding: 8px;
-    color: gray;
+    padding: 7px;
+    color: #e0aa3e;
     opacity: 0;
-    font-size: 4vh;
+    font-size: 4.09vh;
     bottom: 7%; /* Adjust as needed */
     left: 60%;
     transform: translateX(-50%); /* Center the text */
@@ -237,7 +239,6 @@ nav{
     height: 30vh;
     width: 100%;
     font-size: 1.7vh;
-    line-height: 4vh;
 }
 #contant_page{
     height: 30vh;
@@ -261,6 +262,7 @@ nav{
 #footer h1{
     font-size: 19.3vh;
     text-transform: uppercase;
+    padding-right: 23px;
 }
 #polls_bollards {
     margin-top: 50px;

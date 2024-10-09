@@ -5,19 +5,36 @@ import images from './images.js'; // Ensure images.js is correctly imported
 function createSlides(swiperClass, sliderData) {
     const swiperWrapper = document.querySelector(`.${swiperClass} .swiper-wrapper`);
 
+    // Clear any existing slides
+    swiperWrapper.innerHTML = '';
+
     // Dynamically generate the slides
     sliderData.forEach(card => {
         const slide = document.createElement("div");
         slide.classList.add("swiper-slide");
 
         slide.innerHTML = `
-            <div>
-                <img src="${card.image}" alt="${card.heading}">
-                <h3>${card.heading}</h3>
-                <p>${card.description}</p>
-                <p>${card.paragraph}</p>
-            </div>
-        `;
+        <div class="red-section">
+            <img src="${card.image}" alt="${card.heading}">
+        </div>
+        <div class="blue-section">
+            <h3>${card.heading}</h3>
+        <table>
+            <tr>
+                <th>Cat No.</th>
+                <th>Wattage</th>
+                <th>Height</th>
+                <th>MRP</th>
+            </tr>
+            <tr>
+                <td>${card.catNo}</td>
+                <td>${card.wattage}</td>
+                <td>${card.height}</td>
+                <td>${card.mrp}</td>
+            </tr>
+        </table>
+        </div>
+    `;
 
         swiperWrapper.appendChild(slide);
     });
@@ -42,22 +59,16 @@ function createSlides(swiperClass, sliderData) {
     });
 
     // OPTIONAL: Create an Intersection Observer to monitor visibility, if necessary
-    // If you want to keep the keyboard controls enabled regardless of visibility
-    // You can comment out the observer logic if you decide it's not needed
-
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                // Optionally enable keyboard controls when in view
                 swiperInstance.keyboard.enable();
             }
-            // No need to disable keyboard controls; keep them always enabled
         });
     }, {
-        threshold: 0.1 // Adjust this threshold as needed
+        threshold: 0.1
     });
 
-    // Observe the swiper instance
     observer.observe(swiperWrapper);
 }
 
@@ -70,6 +81,7 @@ const slider3Data = data.slice(0, 5); // First 5 items for slider 3
 createSlides("mySwiper1", slider1Data); // First slider with data
 createSlides("mySwiper2", slider2Data); // Second slider with images
 createSlides("mySwiper3", slider3Data); // Third slider with more data
+
 
 // Loader functionality (if used)
 const loader = document.querySelector("#preloader");
