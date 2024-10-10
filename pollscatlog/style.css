@@ -422,3 +422,8 @@ nav{
     font-weight: 600;
     padding-bottom: 70px;
 }
+.swiper-button-next, .swiper-button-prev {
+    color: #032a25; /* Adjust button color */
+    margin-right: -10px;  /* Your custom margin */
+    margin-left: -10px;  /* Optional for the previous button */
+  }
