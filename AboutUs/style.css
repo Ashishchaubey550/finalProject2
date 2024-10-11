@@ -47,15 +47,6 @@ html, body {
     background-color: whitesmoke;
     position: relative;
 }
-#page1{
-    background-color: whitesmoke;
-    width: 100%;
-}
-#page2{
-    height: 90vh;
-    width: 100%;
-}
-
 nav{
     background-color: whitesmoke;
     padding: 2vw 2vw;
@@ -64,6 +55,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
 }
 
 
