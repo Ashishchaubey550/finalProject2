@@ -257,6 +257,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
 }
 
 
@@ -308,18 +310,20 @@ nav{
 }
 #polls_bollards {
     width: 100%;
-    height: 80vh;
+    height: 81vh;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 70px;
+    padding-top: 45px;
 }
 
 #polls_img, #bollards_img {
-    position: relative;
-    height: 65vh;
-    width: 40%;
+    height: 75vh;
+    width: 35%;
     overflow: hidden; /* Add this to hide overflow */
-    
+    position: relative;
+    background-color:#e9e9e9;
 }
 
 #polls_img img, #bollards_img img {
@@ -328,12 +332,12 @@ nav{
     transition: transform 0.3s ease-in; 
 }
 
-#polls_img:hover img {
+#polls_img img:hover{
     content: url('../AssertsAll/poles/light_Poles.jpg'); /* Change image on hover */
     transform: scale(1.1) translateY(-15px);
 }
 
-#bollards_img:hover img {
+#bollards_img img:hover{
     content: url('../AssertsAll/garden_lights/light_garden\ lights.jpg'); /* Change image on hover */
     transform: scale(1.1) translateY(-15px);
 }

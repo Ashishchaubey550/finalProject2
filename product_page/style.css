@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -59,7 +60,6 @@ body.loading #main {
 }
 #main{
     position: relative;
-    z-index: 10;
 }
 #herosection{
     height: 100vh;
@@ -67,14 +67,7 @@ body.loading #main {
     background-color: whitesmoke;
     position: relative;
 }
-#page1{
-    background-color: whitesmoke;
-    width: 100%;
-}
-#page2{
-    height: 90vh;
-    width: 100%;
-}
+
 nav{
     background-color: whitesmoke;
     padding: 2vw 2vw;
@@ -83,9 +76,14 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
 }
 
-
+#logo_img{
+    height: 110px;
+    width: 250px;
+}
 #nav-part2{
     display: flex;
     align-items: center;
@@ -134,110 +132,79 @@ nav{
 }
 #polls_bollards {
     width: 100%;
-    height: 80vh;
+    height: 81vh;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 70px;
+    padding-top: 45px;
 }
 
 #polls_img, #bollards_img {
-    position: relative;
-    height: 65vh;
-    width: 40%;
+    height: 69vh;
+    width: 35%;
     overflow: hidden; /* Add this to hide overflow */
-    
+    position: relative;
+    background-color:#e9e9e9;
+}
+#polls_img a{
+    text-decoration: none;
+}
+#bollards_img a {
+    text-decoration: none;
 }
 
 #polls_img img, #bollards_img img {
-    height: 65vh;
+    height: 60vh;
     width: 100%;
     transition: transform 0.3s ease-in; 
 }
 
-#polls_img:hover img {
+#polls_img img:hover{
     content: url('../AssertsAll/poles/light_Poles.jpg'); /* Change image on hover */
-    transform: scale(1.1) translateY(-15px);
 }
 
-#bollards_img:hover img {
+#bollards_img img:hover {
     content: url('../AssertsAll/garden_lights/light_garden\ lights.jpg'); /* Change image on hover */
-    transform: scale(1.1) translateY(-15px);
 }
 .hover-text {
-    position: absolute;
-    text-align: center;
+    display: inline;
     justify-content: center;
-    padding: 8px;
     color: #e0aa3e;
-    opacity: 0;
-    font-size: 5vh;
-    bottom: 7%; /* Adjust as needed */
-    left: 60%;
-    transform: translateX(-50%); /* Center the text */
-    transition: opacity 0.3s ease-in, transform 0.3s ease-in;
+    font-size: 3vh;
+    padding-left: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
 }
-
-#bollards_img:hover .hover-text,
-#polls_img:hover .hover-text {
-    opacity: 1; /* Show text on hover */
-    transform: translateY(0); /* Optional: adjust position */
+.hover-text a {
+    text-decoration: none;
 }
-/* style.css */
 #footer{
-    position: fixed;
-    z-index: 9;
-    height: 100vh;
-    bottom: 0;
-    width: 100vw;
-    color: #e0aa3e;
-    background-color: #063e37;
     display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-#footer_bottom img{
-    height: 8vh;
-    width: 5vw;
-}
-#footer_bottom{
-    border-top: 1px solid #dadada;
-    height: 9vh;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    
-}
-#contact_details{
-    cursor: pointer;
-    margin-left: 35vw;
-    height: 30vh;
-    width: 100%;
-    font-size: 1.7vh;
-}
-#contant_page{
-    height: 30vh;
-    width: 100%;
-    padding: 20px;
-    position: relative;
-}
-#contant_page a:hover {
-    color: #e0aa3e; /* Change to gold-like color on hover */
-    text-decoration: underline; /* Optional: underline the link */
-    z-index: 999;
-}
-#footer_div{
-    height: 30vh;
-    width: 100%;
-    margin-bottom: 10vh;
-    display: flex;
-    z-index: 101;
     justify-content: space-around;
+    align-items: center;
+    height: 32vh;
+    width: 100%;
+    color: whitesmoke;
+    background-color: rgb(32, 30, 30);
+    border-top: 5px solid #e0aa3e;
 }
-#footer h1{
-    font-size: 19.3vh;
-    text-transform: uppercase;
-    padding-right: 37px;
+#navepart1{
+    padding-right: 30px;
+    width: 50%;
+    border: red solid 3px;
+}
+#nav-part22{
+    background-color: red;
+}
+#nav-part22 a{
+    font-weight: 300;
+    margin-top: -130px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    padding: 0px 10px 0px 0px;
 }
 

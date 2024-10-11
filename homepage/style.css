@@ -21,7 +21,7 @@ body.loading #main {
 #preloader{
     height: 100%;
     width: 100%;
-    background-color: #032a25;
+    background-color: black;
     position: fixed;
     z-index: 2999;
     transition: all linear 0.5s;
@@ -35,20 +35,20 @@ body.loading #main {
 #preloader h1{
     font-size: 3vw;
     color: transparent;
-    background: linear-gradient(to right ,green, gold);
+    background: whitesmoke;
     -webkit-background-clip: text;
     position: absolute;
     opacity: 0;
     animation-name: load;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-delay: 1s;
     animation-timing-function: linear;
 }
 #preloader h1:nth-child(2){
-    animation-delay: 2s;
+    animation-delay: 4s;
 }
 #preloader h1:nth-child(3){
-    animation-delay: 3s;
+    animation-delay: 7s;
 }
 @keyframes load {
     0%{
@@ -74,16 +74,18 @@ body.loading #main {
     object-fit: cover;
 }
 a{
-    text-decoration: none;
     cursor: pointer;
 }
  #view-product {
-    border-radius: 50%; 
+    border-radius: 20px; 
     width: 8vw; 
-    height: 8vw; 
-    background-color: #032a25;
-    color: #e0aa3e;
+    height: 5vw; 
+    background-color: black;
+    color: whitesmoke;
     font-size: 1vw;
+    bottom: 0;
+    margin-bottom: 7px;
+    margin-left: 46%;
     text-transform: uppercase;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: fixed;
@@ -92,6 +94,5 @@ a{
     justify-content: center;
     text-align: center;
     padding: 0; 
-    scale: 0;
     z-index: 10;
 }
