@@ -180,31 +180,108 @@ nav{
 .hover-text a {
     text-decoration: none;
 }
-#footer{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 32vh;
-    width: 100%;
-    color: whitesmoke;
-    background-color: rgb(32, 30, 30);
-    border-top: 5px solid #e0aa3e;
-}
-#navepart1{
-    padding-right: 30px;
-    width: 50%;
-    border: red solid 3px;
-}
-#nav-part22{
-    background-color: red;
-}
-#nav-part22 a{
-    font-weight: 300;
-    margin-top: -130px;
-    text-decoration: none;
-    color: whitesmoke;
-    font-size: 20px;
+footer {
+    border-top: 4px solid #e0aa3e;
+    background-color: #111;
+    color: #fff;
+    padding: 40px 0;
     font-family: "Poppins", sans-serif;
-    padding: 0px 10px 0px 0px;
+    font-weight: 300;
 }
 
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-logo,
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer-logo {
+    flex-basis: 25%;
+    text-align: left;
+}
+#footerlogo{
+    height: 80px;
+    width: 140px;
+}
+.footer-logo h2 {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.footer-logo p {
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 5px;
+}
+
+.footer-links {
+    flex-basis: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 10px 0;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-divider {
+    width: 100%;
+    border: 0.5px solid goldenrod;
+    margin: 30px 0;
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.footer-socials img{
+    border: 1px solid #e0aa3e;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+}
+/* .footer-socials a {
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    margin: 2px 9px;
+    padding-right: 50px;
+    text-decoration: none;
+    gap: 10px;
+} */
+
+.footer-socials a:hover {
+    color: #aaa;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 10px;
+}
