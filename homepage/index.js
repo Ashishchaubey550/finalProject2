@@ -24,11 +24,11 @@
 
 
 
-    // var loader = document.querySelector("#preloader");
-    // var mainContent = document.querySelector("#main");
+    var loader = document.querySelector("#preloader");
+    var mainContent = document.querySelector("#main");
     
-    // setTimeout(function() {
-    //     loader.style.top = "-100%";
-    //     mainContent.classList.add('visible'); // Show the main content
-    // }, 6000);
+    setTimeout(function() {
+        loader.style.top = "-100%";
+        mainContent.classList.add('visible'); // Show the main content
+    }, 6000);
     
