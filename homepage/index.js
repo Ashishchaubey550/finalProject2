@@ -30,5 +30,5 @@
     setTimeout(function() {
         loader.style.top = "-100%";
         mainContent.classList.add('visible'); // Show the main content
-    }, 10000);
+    }, 6000);
     

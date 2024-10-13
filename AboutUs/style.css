@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -15,14 +16,16 @@ html, body {
     color: #063e37;
     font-weight: 600;
     margin: auto;
-    padding-top: 50px;
     margin-bottom: 30px;
 }
 #aboutus p{
     font-size: 2vw;
-    padding: 20px 15px 0 20px;
-    line-height: 40px;
+    padding: 0px 15px 0 20px;
     text-align: justify;
+    word-spacing: 15px;
+    line-height: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
 }
 #aboutus p span{
     font-size: 2.2vw;
@@ -59,7 +62,11 @@ nav{
     font-weight: 200;
 }
 
-
+#logo_img{
+    height: 110px;
+    width: 250px;
+    object-fit: cover;
+}
 #nav-part2{
     display: flex;
     align-items: center;
@@ -187,8 +194,8 @@ footer {
 .footer-socials img{
     border: 1px solid #e0aa3e;
     border-radius: 50%;
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
     margin: 10px;
 }
 /* .footer-socials a {
@@ -212,3 +219,10 @@ footer {
     margin-top: 10px;
 }
 
+.footer-logo {
+    flex-basis: 25%;
+    text-align: left;
+    height: 110px;
+    width: 250px;
+    object-fit: cover;
+}

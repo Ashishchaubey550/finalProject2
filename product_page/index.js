@@ -1,3 +1,13 @@
+
+gsap.from("#product_heading",{
+    opacity: 0,
+    y:30,
+    delay: 0.3,
+    duration: 0.5,
+    scale: 0.2
+  })
+
+
 var loader = document.querySelector("#preloader");
 var mainContent = document.querySelector("#main");
 
@@ -6,7 +16,6 @@ window.addEventListener('load', function() {
     loader.style.top = "-100%";
     mainContent.classList.add('visible'); // Show the main content
 });
-
 
 
 // var loader = document.querySelector("#preloader");

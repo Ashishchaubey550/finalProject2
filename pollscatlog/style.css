@@ -4,179 +4,24 @@
     padding: 0;
     box-sizing: border-box;
 }
-  html, body {
-    width: 100%;
-    height: 100%;
-}
-.polssslider {
-    padding: 4vw;
-    height: 100%;
+/* Hero section styling */
+#herosection {
+    height: 200vh;
     width: 100%;
     background-color: whitesmoke;
-}
-
-.swiper {
-    width: 100%;
-    height: 70%;
-    display: flex;
-    justify-content: center;
+    position: relative;
     align-items: center;
-}
-
-.swiper-slide {
-    display: flex; /* Flexbox for horizontal alignment */
-    justify-content: space-between; /* Space between the two sections */
-    align-items: center; /* Center content vertically */
-    height: 100%; /* Full height of the parent container */
-    padding: 2vw;
-}
-
-/* Left (red) side styling */
-.red-section {
-    width: 30%; /* Left section takes 50% of the width */
-    height: 100%; /* Full height of the parent container */
-    display: flex;
     justify-content: center;
-    align-items: start;
-    flex-direction: column;
 }
-
-/* Image styling */
-.red-section img {
-    max-width: 100%; /* Ensure the image is responsive */
-    max-height: 100%; /* Keep the image within the section height */
-    object-fit: cover; /* Cover to maintain aspect ratio */
-}
-
-/* Right (blue) side styling */
-.blue-section {
-    background-color: #063e37;
-    color: #e0aa3e;
-    padding: 20px;
-    width: 72%;
-    margin: 0 auto;
-    border-radius: 10px;
+/* Full page width and height settings */
+html, body {
+    width: 100%;
     height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.blue-section h3 {
-    background-color: #ffcc00; /* Yellow background like the heading */
-    padding: 15px;
-    text-align: center;
-    font-size: 2rem;
-    color: black;
-    margin-bottom: 20px;
-    border-radius: 5px 5px 0 0;
-}
-
-.blue-section table {
-    width: 100%;
-    border-collapse: collapse;
-    text-align: center;
-}
-
-.blue-section th, .blue-section td {
-    padding: 10px 20px;
-    border: 1px solid white;
-}
-
-.blue-section th {
-    background-color: #ffcc00; /* Matching yellow header */
-    color: black;
-}
-
-.blue-section td {
-    background-color: rgba(255, 255, 255, 0.1); /* Light transparent effect for rows */
-}
-
-
-
-.swapper2{
-    height: 100vh;
-    width: 100%;
-    background-color: whitesmoke;
-    position: relative;
-}
-.swipers {
-    /* padding: 3vw; */
-    width: 100%;
-    height: 70%;
-  }
-
-  .swipers-slide {
-    background: #04be14; /* Background color for the slide */
-    display: flex; /* Use flexbox for alignment */
-    width: 45%; /* Width of the slide */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    height: 100%; /* Set the height to 100% of the parent container */
-}
-
-/* Image styling */
-.swipers-slide img {
-    background-color: blue; /* Background color for the image */
-    width: 100%; /* Full width of the slide */
-    height: 10%; /* Set the height of the image to 10% of the slide's height */
-    object-fit: cover; /* Maintain the aspect ratio and cover the area */
-}
-.swipers-slide:hover img {
-    width: 50%;
-    transition: transform 0.3s ease;
-    transform: translateX(-290px); /* Use pixels to specify the translation */
-    transition: transform 0.3s ease; /* Add a transition for smooth effect */    
-}
-.swipers-slide img:hover{
-    
-}
-.swipers-slide h3 {
-    width: 50%; /* Full width of the slide */
-    height: 100%; /* Set the height of the image to 10% of the slide's height */
-    object-fit: cover; /* Maintain the aspect ratio and cover the area */
-    font-size: 3vw;
-    position: relative;
-}
-
-
-.swipers-slide h3 {
-    position: absolute; /* Position the heading absolutely within the slide */
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Adjust to truly center the heading */
-    font-size: 3vw; /* Font size */
-    color: white; /* Text color */
-    width: 100%; /* Full width of the slide */
-    text-align: center; /* Center text */
-    opacity: 0; /* Start hidden */
-    transition: opacity 0.3s ease; /* Transition for the opacity */
-}
-
-.swipers-slide:hover h3 {
-    opacity: 1; /* Show heading on image hover */
-}
-.swipers-slide p {
-    width: 50%; /* Full width of the slide */
-    height: 100%; /* Set the height of the image to 10% of the slide's height */
-    object-fit: cover; /* Maintain the aspect ratio and cover the area */
-    font-size: 2    vw;
-    position: relative;
-}
-
-
-.swipers-slide p {
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Adjust to truly center the heading */
-    font-size: 2vw; /* Font size */
-    color: white; /* Text color */
-    width: 100%; /* Full width of the slide */
-    text-align: center; /* Center text */
-    opacity: 0; /* Start hidden */
-    transition: opacity 0.3s ease; /* Transition for the opacity */
-}
-
-.swipers-slide:hover p {
-    opacity: 1; /* Show heading on image hover */
-}
 body.loading #main {
     display: none;
 }
@@ -212,6 +57,116 @@ body.loading #main {
 #preloader h1:nth-child(3){
     animation-delay: 3s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main Swiper container */
+/* Common styles for both Swipers */
+.swiper {
+    width: 96%;
+    height: 330px;
+    background-color: transparent;
+    margin-bottom: 60px; /* Added margin to separate sliders */
+  }
+  
+  .swiper-slide {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .card img {
+    background-color: black;
+    width: 85%;
+    height: 100%; /* Fixed height for uniformity */
+    /* margin-bottom: 10px; */
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  .card-info {
+    width: 85%;
+    background-color: #00423f;
+    color: #fff;
+    padding: 13px;
+    border-radius: 0 0 5px 5px;
+    margin-top: -10px;
+    margin-left: 24px;
+  }
+  
+  .card-info p {
+    margin: 0;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .card-info p:first-child {
+    font-weight: bold;
+  }
+  
+
+  #product_heading{
+    margin-top: 30px;
+    text-align: left;
+    font-size: 6vh;
+    color: #063e37;
+    font-weight: 300;
+    padding-left: 20px;
+    font-family: "Poppins", sans-serif;
+}
+#product_heading1{
+    text-align: left;
+    font-size: 6vh;
+    color: #063e37;
+    padding-left: 20px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @keyframes load {
     0%{
         opacity: 0;
@@ -229,18 +184,6 @@ body.loading #main {
 #main{
     position: relative;
 }
-#herosection{
-    height: 100vh;
-    width: 100%;
-    background-color: whitesmoke;
-    position: relative;
-}
-#swapper2{
-    height: 100vh;
-    width: 100%;
-    background-color: rgb(6, 248, 6);
-    position: relative;
-}
 nav{
     background-color: whitesmoke;
     padding: 2vw 2vw;
@@ -253,6 +196,11 @@ nav{
     font-weight: 200;
 }
 
+#logo_img{
+    height: 110px;
+    width: 250px;
+    object-fit: cover;
+}   
 #nav-part2{
     display: flex;
     align-items: center;
@@ -376,11 +324,14 @@ footer {
 .footer-logo {
     flex-basis: 25%;
     text-align: left;
+    height: 110px;
+    width: 250px;
+    object-fit: cover;
 }
-#footerlogo{
+/* #footerlogo{
     height: 80px;
     width: 140px;
-}
+} */
 .footer-logo h2 {
     font-size: 24px;
     font-weight: bold;
@@ -432,8 +383,8 @@ footer {
 .footer-socials img{
     border: 1px solid #e0aa3e;
     border-radius: 50%;
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
     margin: 10px;
 }
 /* .footer-socials a {
@@ -465,8 +416,3 @@ footer {
     font-weight: 600;
     padding-bottom: 70px;
 }
-.swiper-button-next, .swiper-button-prev {
-    color: #032a25; /* Adjust button color */
-    margin-right: -10px;  /* Your custom margin */
-    margin-left: -10px;  /* Optional for the previous button */
-  }

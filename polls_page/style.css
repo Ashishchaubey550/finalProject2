@@ -81,6 +81,7 @@ nav{
 #logo_img{
     height: 110px;
     width: 250px;
+    object-fit: cover;
 }
 #nav-part2{
     display: flex;
@@ -173,7 +174,7 @@ nav{
 .hover-text {
     display: inline;
     justify-content: center;
-    color: #e0aa3e;
+    color: black;
     font-size: 3vh;
     padding-left: 10px;
     font-family: "Poppins", sans-serif;
@@ -230,11 +231,14 @@ footer {
 .footer-logo {
     flex-basis: 25%;
     text-align: left;
+    height: 110px;
+    width: 250px;
+    object-fit: cover;
 }
-#footerlogo{
+/* #footerlogo{
     height: 80px;
     width: 140px;
-}
+} */
 .footer-logo h2 {
     font-size: 24px;
     font-weight: bold;
@@ -286,8 +290,8 @@ footer {
 .footer-socials img{
     border: 1px solid #e0aa3e;
     border-radius: 50%;
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
     margin: 10px;
 }
 /* .footer-socials a {
