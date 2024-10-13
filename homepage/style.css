@@ -78,7 +78,7 @@ body.loading #main {
 a{
     cursor: pointer;
 }
- #view-product {
+#view-product {
     border-radius: 20px; 
     width: 9vw; 
     height: 3vw; 

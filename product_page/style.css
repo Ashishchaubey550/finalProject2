@@ -193,22 +193,12 @@ nav{
     text-decoration: none;
 }
 footer {
-    position: relative;
+    border-top: 4px solid #e0aa3e;
     background-color: #111;
     color: #fff;
     padding: 40px 0;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
-}
-
-footer::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 4px; /* This will be the height of the "border" */
-    background: linear-gradient(to right, #f9f295, #e0aa3e, #e0aa3e, #b88a44); /* Gradient for the border */
 }
 
 .footer-container {
@@ -279,11 +269,8 @@ footer::before {
 
 .footer-divider {
     width: 100%;
-    padding: 1px;
+    border: 0.5px solid goldenrod;
     margin: 30px 0;
-    background: linear-gradient(to right, #f9f295, #e0aa3e, #e0aa3e, #b88a44); /* Gradient for the border */
-    /* border: 0px solid transparent; Transparent border to maintain spacing */
-
 }
 
 .footer-socials {

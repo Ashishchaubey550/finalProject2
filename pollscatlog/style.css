@@ -73,7 +73,7 @@ body.loading #main {
 /* Main Swiper container */
 /* Common styles for both Swipers */
 .swiper {
-    margin-top: 26px;
+    margin-top: 30px;
     width: 96%;
     height: 330px;
     background-color: transparent;
@@ -128,15 +128,14 @@ body.loading #main {
   }
 
   #product_heading{
-    margin-top: 30px;
+    margin-top: 10px;
     text-align: left;
     font-size: 3.5vh;
     color: #032A25;
     font-weight: 300;
     padding-left: 20px;
     font-family: "Poppins", sans-serif;
-    margin-left: 43px;
-    margin-top: 26px;
+    margin-left: 45px;
 
 }
 #product_heading1{
@@ -146,7 +145,8 @@ body.loading #main {
     padding-left: 20px;
     font-weight: 300;
     font-family: "Poppins", sans-serif;
-    margin-left: 43px;
+    margin-left: 45px;
+    margin-top: 26px;
 
 }
 
