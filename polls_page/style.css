@@ -181,8 +181,10 @@ nav{
     font-weight: 500;
     text-transform: capitalize;
 }
-.hover-text a {
-    text-decoration: none;
+#nav-part2 h1:hover a{
+    background: linear-gradient(to right, #f9f295, #e0aa3e, #e0aa3e, #B88A44);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 /* style.css */
 .preloader {
@@ -207,12 +209,22 @@ nav{
     align-items: center;
 }
 footer {
-    border-top: 4px solid #e0aa3e;
+    position: relative;
     background-color: #111;
     color: #fff;
     padding: 40px 0;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
+}
+
+footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px; /* This will be the height of the "border" */
+    background: linear-gradient(to right, #f9f295, #e0aa3e, #e0aa3e, #b88a44); /* Gradient for the border */
 }
 
 .footer-container {
@@ -239,6 +251,11 @@ footer {
     height: 80px;
     width: 140px;
 } */
+#logo_img{
+    height: 110px;
+    width: 250px;
+    object-fit: cover;
+}
 .footer-logo h2 {
     font-size: 24px;
     font-weight: bold;
@@ -278,8 +295,11 @@ footer {
 
 .footer-divider {
     width: 100%;
-    border: 0.5px solid goldenrod;
+    padding: 1px;
     margin: 30px 0;
+    background: linear-gradient(to right, #f9f295, #e0aa3e, #e0aa3e, #b88a44); /* Gradient for the border */
+    /* border: 0px solid transparent; Transparent border to maintain spacing */
+
 }
 
 .footer-socials {

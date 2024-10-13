@@ -6,7 +6,7 @@
 }
 /* Hero section styling */
 #herosection {
-    height: 200vh;
+    height: 160vh;
     width: 100%;
     background-color: whitesmoke;
     position: relative;
@@ -73,6 +73,7 @@ body.loading #main {
 /* Main Swiper container */
 /* Common styles for both Swipers */
 .swiper {
+    margin-top: 26px;
     width: 96%;
     height: 330px;
     background-color: transparent;
@@ -80,6 +81,7 @@ body.loading #main {
   }
   
   .swiper-slide {
+
     margin-top: 10px;
     text-align: center;
     font-size: 18px;
@@ -101,41 +103,50 @@ body.loading #main {
   
   .card-info {
     width: 85%;
-    background-color: #00423f;
-    color: #fff;
+    background-color: #032A25; /* Keep the background color unchanged */
     padding: 13px;
     border-radius: 0 0 5px 5px;
     margin-top: -10px;
     margin-left: 24px;
   }
   
+  
   .card-info p {
     margin: 0;
     font-size: 16px;
     font-family: "Poppins", sans-serif;
+    background: linear-gradient(to right, #f9f295, #e0aa3e, #e0aa3e, #B88A44);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   
   .card-info p:first-child {
     font-weight: bold;
   }
-  
+  .swiper-button-next , .swiper-button-prev{
+    color: black;
+  }
 
   #product_heading{
     margin-top: 30px;
     text-align: left;
-    font-size: 6vh;
-    color: #063e37;
+    font-size: 3.5vh;
+    color: #032A25;
     font-weight: 300;
     padding-left: 20px;
     font-family: "Poppins", sans-serif;
+    margin-left: 43px;
+    margin-top: 26px;
+
 }
 #product_heading1{
     text-align: left;
-    font-size: 6vh;
-    color: #063e37;
+    font-size: 3.5vh;
+    color: #032A25;
     padding-left: 20px;
     font-weight: 300;
     font-family: "Poppins", sans-serif;
+    margin-left: 43px;
 
 }
 
@@ -245,7 +256,9 @@ nav{
     position: relative;
 }
 #nav-part2 h1:hover a{
-    color: #e0aa3e;
+    background: linear-gradient(to right, #f9f295, #e0aa3e, #e0aa3e, #B88A44);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 #polls_bollards {
     width: 100%;
@@ -300,12 +313,22 @@ nav{
     transform: translateY(0); /* Optional: adjust position */
 }
 footer {
-    border-top: 4px solid #e0aa3e;
+    position: relative;
     background-color: #111;
     color: #fff;
     padding: 40px 0;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
+}
+
+footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px; /* This will be the height of the "border" */
+    background: linear-gradient(to right, #f9f295, #e0aa3e, #e0aa3e, #b88a44); /* Gradient for the border */
 }
 
 .footer-container {
@@ -332,6 +355,11 @@ footer {
     height: 80px;
     width: 140px;
 } */
+#logo_img{
+    height: 110px;
+    width: 250px;
+    object-fit: cover;
+}
 .footer-logo h2 {
     font-size: 24px;
     font-weight: bold;
@@ -371,8 +399,11 @@ footer {
 
 .footer-divider {
     width: 100%;
-    border: 0.5px solid goldenrod;
+    padding: 1px;
     margin: 30px 0;
+    background: linear-gradient(to right, #f9f295, #e0aa3e, #e0aa3e, #b88a44); /* Gradient for the border */
+    /* border: 0px solid transparent; Transparent border to maintain spacing */
+
 }
 
 .footer-socials {
@@ -408,12 +439,4 @@ footer {
     margin-top: 10px;
 }
 
-#product_headings{
-    text-align: left;
-    font-size: 6vh;
-    text-decoration: underline;
-    color: #063e37;
-    font-weight: 600;
-    padding-bottom: 70px;
-    font-family: "Poppins", sans-serif;
-}
+
