@@ -17,6 +17,7 @@ html, body {
     font-weight: 600;
     margin: auto;
     margin-bottom: 30px;
+    font-family: "Poppins", sans-serif;
 }
 #aboutus p{
     font-size: 2vw;
@@ -74,6 +75,7 @@ nav{
     align-items: center;
     gap: 1vw;
     text-transform: uppercase;
+
 }
 #nav-part2  a{
     color: #032a25;
@@ -85,7 +87,6 @@ nav{
     border-radius: 50px;
     color: #032a25;
     font-size: 15px;
-
     font-weight: 500;
     position: relative;
     overflow: hidden;

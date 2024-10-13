@@ -75,6 +75,7 @@ body.loading #main {
     color: #063e37;
     font-weight: 600;
     margin: auto;
+    font-family: "Poppins", sans-serif;
 }
 nav{
     background-color: whitesmoke;
