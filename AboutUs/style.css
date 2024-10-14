@@ -35,6 +35,11 @@ html, body {
     font-weight: 800;
 }
 
+#aboutus p span::before{
+    background: linear-gradient(to right, #f9f295, #e0aa3e, #e0aa3e, #B88A44);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 /* ========================================================contact us======================================== */
 #main{
     position: relative;
