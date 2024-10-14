@@ -72,7 +72,7 @@ body.loading #main {
 
 /* Main Swiper Container */
 .swiper {
-    margin: 30px auto 60px; /* Centering the swiper */
+    margin: 32px auto 60px; /* Centering the swiper */
     width: 100%;
     max-width: 2560px; /* Limit width for ultra-wide screens */
     height: 330px;
@@ -88,6 +88,7 @@ body.loading #main {
     justify-content: center;
     align-items: center;
     padding: 10px;
+    margin: 0px 0px;
     box-sizing: border-box;
 }
 
@@ -142,21 +143,37 @@ body.loading #main {
 
 
 #product_heading{
-    font-size: 5vh;
+    text-align: left;
+    font-size: 4.5vh;
     color: #032A25;
     font-weight: 300;
-    margin: auto;
-    padding-left: 27px;
+    display: flex;
+    justify-content: start;
+    padding-left: 28px;
+    gap: 20px;
     font-family: "Poppins", sans-serif;
 }
 #product_heading1{
-    font-size: 5vh;
+    text-align: left;
+    font-size: 4.5vh;
+    color: #032A25;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 35px;
+    font-family: "Poppins", sans-serif;
+}
+/* #product_heading1{
+    font-size: 4.5vh;
+    margin-bottom: auto;
     color: #032A25;
     font-weight: 300;
     margin: auto;
     padding-left: 27px;
+    background-color: red;
     font-family: "Poppins", sans-serif;
-}
+} */
 
 
 

@@ -178,24 +178,24 @@ populateSwiper2();
 
 
 
-// Loader functionality (if used)
-const loader = document.querySelector("#preloader");
-const mainContent = document.querySelector("#main");
+// // Loader functionality (if used)
+// const loader = document.querySelector("#preloader");
+// const mainContent = document.querySelector("#main");
 
-// Loader visibility management
-window.addEventListener('load', function() {
-    if (loader) {
-        loader.style.top = "-100%"; // Hide loader
-    }
-    if (mainContent) {
-        mainContent.classList.add('visible'); // Show the main content
-    } else {
-        console.error("#main element not found.");
-    }
-});
-gsap.from("#product_headings",{
-    opacity: 0,
-    delay: 0.3,
-    duration: 0.5,
-    scale: 0.2
-  })
+// // Loader visibility management
+// window.addEventListener('load', function() {
+//     if (loader) {
+//         loader.style.top = "-100%"; // Hide loader
+//     }
+//     if (mainContent) {
+//         mainContent.classList.add('visible'); // Show the main content
+//     } else {
+//         console.error("#main element not found.");
+//     }
+// });
+// gsap.from("#product_headings",{
+//     opacity: 0,
+//     delay: 0.3,
+//     duration: 0.5,
+//     scale: 0.2
+//   })
