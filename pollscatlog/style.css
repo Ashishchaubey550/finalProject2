@@ -161,7 +161,7 @@ body.loading #main {
         font-weight: 300;
         font-family: "Poppins", sans-serif;
         margin: 0; /* Avoid extra margins */
-        padding: 10px 152px; /* Consistent padding between headings */
+        padding: 10px 157px; /* Consistent padding between headings */
         width: 100%; 
         box-sizing: border-box; /* Ensure padding stays inside width */
     }
