@@ -228,10 +228,11 @@ footer::before {
     width: 250px;
     object-fit: cover;
 }
-/* #footerlogo{
+#footerlogo{
     height: 80px;
-    width: 140px;
-} */
+    width: 60%;
+    object-fit: cover;
+}
 #logo_img{
     height: 110px;
     width: 250px;
