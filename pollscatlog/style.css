@@ -159,7 +159,9 @@ body.loading #main {
     color: #032A25;
     font-weight: 300;
     display: flex;
+    margin-top: -30px;
     justify-content: start;
+    align-items: center;
     padding-left: 28px;
     gap: 20px;
     font-family: "Poppins", sans-serif;
