@@ -159,9 +159,9 @@ body.loading #main {
     color: #032A25;
     font-weight: 300;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 35px;
+    justify-content: start;
+    padding-left: 28px;
+    gap: 20px;
     font-family: "Poppins", sans-serif;
 }
 /* #product_heading1{
