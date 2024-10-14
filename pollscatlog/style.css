@@ -148,13 +148,24 @@ body.loading #main {
     color: #032A25;
     font-weight: 300;
     font-family: "Poppins", sans-serif;
-    margin: 0; /* Reset margin for better alignment */
-    padding-left: 27px;
-    box-sizing: border-box; /* Ensure padding does not affect width */
+    margin: 0; /* Avoid extra margins */
+    padding: 10px 27px; /* Consistent padding between headings */
+    width: 100%; 
+    box-sizing: border-box; /* Ensure padding stays inside width */
 }
-
-
-
+@media (min-width: 2560px) {
+    #product_heading, 
+    #product_heading1 {
+        font-size: 3.5vh;
+        color: #032A25;
+        font-weight: 300;
+        font-family: "Poppins", sans-serif;
+        margin: 0; /* Avoid extra margins */
+        padding: 10px 154px; /* Consistent padding between headings */
+        width: 100%; 
+        box-sizing: border-box; /* Ensure padding stays inside width */
+    }
+}
 
 
 
