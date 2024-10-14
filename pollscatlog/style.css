@@ -70,85 +70,89 @@ body.loading #main {
 
 
 
-/* Main Swiper container */
-/* Common styles for both Swipers */
+/* Main Swiper Container */
 .swiper {
-    margin-top: 30px;
-    width: 96%;
+    margin: 30px auto 60px; /* Centering the swiper */
+    width: 100%;
+    max-width: 2560px; /* Limit width for ultra-wide screens */
     height: 330px;
-    background-color: transparent;
-    margin-bottom: 60px; /* Added margin to separate sliders */
-  }
-  
-  .swiper-slide {
+    display: flex;
+    align-items: center;
+}
+
+/* Slide Styling */
+.swiper-slide {
     text-align: center;
     font-size: 18px;
-    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
-  }
-  
-  .card img {
-    background-color: black;
-    width: 85%;
-    height: 100%; /* Fixed height for uniformity */
-    /* margin-bottom: 10px; */
+    box-sizing: border-box;
+}
+
+/* Card Image Styling */
+.card img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    max-height: 300px;
+    margin-bottom: 40px;
     border-radius: 5px;
     object-fit: cover;
-  }
-  
-  .card-info {
-    width: 85%;
-    background-color: #032A25; /* Keep the background color unchanged */
+}
+
+/* Card Info Styling */
+.card-info {
+    background-color: #032A25;
+    height: 95px;
+    width: 100%;
+    max-width: 100%; /* Keeps info aligned with the card on large screens */
     padding: 13px;
-    margin-top: -10px;
+    margin: -55px auto 0; /* Centering the card info */
     border-radius: 0 0 5px 5px;
-    margin-left: 24px;
-  }
-  
-  
-  .card-info p {
+}
+
+/* Text Gradient */
+.card-info p {
+
     margin: 0;
     font-size: 16px;
     font-family: "Poppins", sans-serif;
     background: linear-gradient(to right, #f9f295, #e0aa3e, #e0aa3e, #B88A44);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
-  
-  .card-info p:first-child {
+}
+
+.card-info p:first-child {
     font-weight: bold;
-  }
-  .swiper-button-next , .swiper-button-prev{
+}
+
+/* Swiper Navigation Buttons */
+.swiper-button-next, 
+.swiper-button-prev {
     color: black;
-  }
+    opacity: 0.75;
+    transition: opacity 0.3s;
+}
 
-  #product_heading{
-    margin-top: 10px;
-    text-align: left;
+.swiper-button-next:hover, 
+.swiper-button-prev:hover {
+    opacity: 1;
+}
+
+
+/* Styling for product headings */
+#product_heading, 
+#product_heading1 {
     font-size: 3.5vh;
     color: #032A25;
     font-weight: 300;
-    padding-left: 20px;
     font-family: "Poppins", sans-serif;
-    padding: 13px;
-    padding-left: 62px;
-
-
+    margin: 0; /* Reset margin for better alignment */
+    padding-left: 27px;
+    box-sizing: border-box; /* Ensure padding does not affect width */
 }
-#product_heading1{
-    margin-top: 10px;
-    text-align: left;
-    font-size: 3.5vh;
-    color: #032A25;
-    font-weight: 300;
-    padding-left: 20px;
-    font-family: "Poppins", sans-serif;
-    padding: 13px;
-    padding-left: 62px;
-}
+
 
 
 
