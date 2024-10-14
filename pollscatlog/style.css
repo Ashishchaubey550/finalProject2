@@ -103,8 +103,8 @@ body.loading #main {
     width: 85%;
     background-color: #032A25; /* Keep the background color unchanged */
     padding: 13px;
-    border-radius: 0 0 5px 5px;
     margin-top: -10px;
+    border-radius: 0 0 5px 5px;
     margin-left: 24px;
   }
   
