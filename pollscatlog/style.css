@@ -153,6 +153,8 @@ body.loading #main {
     width: 100%; 
     box-sizing: border-box; /* Ensure padding stays inside width */
 }
+
+
 @media (min-width: 2560px) {
     #product_heading, 
     #product_heading1 {
@@ -161,12 +163,37 @@ body.loading #main {
         font-weight: 300;
         font-family: "Poppins", sans-serif;
         margin: 0; /* Avoid extra margins */
-        padding: 10px 157px; /* Consistent padding between headings */
+        padding: 10px 160px; /* Consistent padding between headings */
         width: 100%; 
         box-sizing: border-box; /* Ensure padding stays inside width */
     }
 }
-
+@media (min-width: 2790px) {
+    #product_heading, 
+    #product_heading1 {
+        font-size: 3.5vh;
+        color: #032A25;
+        font-weight: 300;
+        font-family: "Poppins", sans-serif;
+        margin: 0; /* Avoid extra margins */
+        padding: 10px 273px; /* Consistent padding between headings */
+        width: 100%; 
+        box-sizing: border-box; /* Ensure padding stays inside width */
+    }
+}
+@media (min-width: 2561px) and (max-width: 2778px) {
+    #product_heading, 
+    #product_heading1 {
+        font-size: 3.5vh;
+        color: #032A25;
+        font-weight: 300;
+        font-family: "Poppins", sans-serif;
+        margin: 0; /* Avoid extra margins */
+        padding: 10px 250px; /* Consistent padding */
+        width: 100%; 
+        box-sizing: border-box; /* Ensure padding stays inside width */
+    }
+}
 
 
 
