@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Card Slider with JSON</title>
+    <title>Polls-Category</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
 </head>
@@ -26,43 +26,40 @@
                                 <a href="../polls_page/index.html">Polls</a>
                                 <div class="sub-dropdown-content">
                                     <a href="../pollscatlog/index.html">Poles</a>
-                                    <a href="#">Brackets</a>
-                                    <a href="#">LED Post top</a>
-                                    <a href="#">LED Drop Down</a>
+                                    <a href="../BracketsCat/index.html">Brackets</a>
+                                    <a href="../LEDPosttopCat/index.html">LED Post top</a>
+                                    <a href="../LEDDropDown/index.html">LED Drop Down</a>
                                 </div>
                             </div>
                             <div class="sub-dropdown">
                                 <a href="../gardernlights/index.html">Garden lights</a>
                                 <div class="sub-dropdown-content">
-                                    <a href="#">Bollards</a>
-                                    <a href="#">Foot Lights</a>
+                                    <a href="../BollardsCat.html/index.html">Bollards</a>
+                                    <a href="../FootLightCat/index.html">Foot Lights</a>
                                 </div>
                             </div>
                         </div>
                     </div>
             
-                    <h1><a href="../AboutUs/index.html" class="active">About Us</a></h1>
+                    <h1><a href="../AboutUs/index.html">About Us</a></h1>
                     <h1><a href="../contactUs/index.html">Contact Us</a></h1>
                 </div>
             </nav>
-            <h1 id="product_heading">LED Street Lights</h1>
-            <!-- First Swiper Slider -->
-            <div class="swiper swiper1">
-                <div class="swiper-wrapper" id="swiper-wrapper1">
-                <!-- Slides will be dynamically added here for the first slider -->
+            <div id="hero-content">
+                <img src="../AssertsAll/Decorative_Poles_2.png" alt="Decorative Poles Background" id="hero-background">
+                <!-- <h1 id="hero-text">Decorative Poles</h1> -->
             </div>
-            <div class="swiper-button-next swiper-button-next1"></div>
-            <div class="swiper-button-prev swiper-button-prev1"></div>
-             </div>
-             <!-- Second Swiper Slider -->
-            <h1 id="product_heading1">Decorative columns</h1>
-            <div class="swiper swiper2">
-            <div class="swiper-wrapper" id="swiper-wrapper2">
-             <!-- Slides will be dynamically added here for the second slider -->
-             </div>
-             <div class="swiper-button-next swiper-button-next2"></div>
-             <div class="swiper-button-prev swiper-button-prev2"></div>
-            </div>
+            <div class="button-container">
+                <button class="filter-button active" data-category="all">All</button>
+                <button class="filter-button" data-category="low-wattage">LED Street Lights</button>
+                <button class="filter-button" data-category="medium-wattage">Decorative Columns</button>
+                <button class="filter-button" data-category="high-wattage">Straight Line Poles</button>
+                <button class="filter-button" data-category="low-wattage">Cast Iron Poles</button>
+                <button class="filter-button" data-category="Cast_Aluminium_Poles">Cast Aluminium Poles</button>
+                <button class="filter-button" data-category="high-wattage">Cast Iron/Aluminium poles</button>
+                <button class="filter-button" data-category="high-wattage">Steel Poles</button>
+            </div>  
+            <div id="cards-container" class="cards-grid"></div>          
         </div>
         <footer>
             <div class="footer-container">
@@ -116,4 +113,6 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="module" src="index.js"></script>
 </body>
+<img src="" alt="">
 </html>
+

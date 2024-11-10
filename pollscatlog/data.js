@@ -1,64 +1,65 @@
 const data1 = [
     {
-      "code": "TSL - 2024 - OLFL - 01",
-      "wattage": 4,
-      "imageUrl": "../AssertsAll/poles/light_Poles.jpg"
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 1.png",
+      "Name":"Cast_Aluminium_Poles",
     },
     {
-      "code": "TSL - 2024 - OLFL - 02",
-      "wattage": 6,
-      "imageUrl": "../AssertsAll/poles/light_Poles.jpg"
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 2.png",
+      "Name":"Cast_Aluminium_Poles",
     },
     {
-      "code": "TSL - 2024 - OLFL - 03",
-      "wattage": 8,
-      "imageUrl": "../AssertsAll/poles/light_Poles.jpg"
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 3.png",
+      "Name":"Cast_Aluminium_Poles",
     },
     {
-        "code": "TSL - 2024 - OLFL - 01",
-        "wattage": 4,
-        "imageUrl": "../AssertsAll/poles/light_Poles.jpg"
-      },
-      {
-        "code": "TSL - 2024 - OLFL - 02",
-        "wattage": 6,
-        "imageUrl": "../AssertsAll/poles/light_Poles.jpg"
-      },
-      {
-        "code": "TSL - 2024 - OLFL - 03",
-        "wattage": 8,
-        "imageUrl": "../AssertsAll/poles/light_Poles.jpg"
-      },
-      {
-        "code": "TSL - 2024 - OLFL - 01",
-        "wattage": 4,
-        "imageUrl": "../AssertsAll/poles/light_Poles.jpg"
-      },
-      {
-        "code": "TSL - 2024 - OLFL - 02",
-        "wattage": 6,
-        "imageUrl": "../AssertsAll/poles/light_Poles.jpg"
-      },
-      {
-        "code": "TSL - 2024 - OLFL - 03",
-        "wattage": 8,
-        "imageUrl": "../AssertsAll/poles/light_Poles.jpg"
-      },
-      {
-        "code": "TSL - 2024 - OLFL - 01",
-        "wattage": 4,
-        "imageUrl": "../AssertsAll/poles/light_Poles.jpg"
-      },
-      {
-        "code": "TSL - 2024 - OLFL - 02",
-        "wattage": 6,
-        "imageUrl": "../AssertsAll/poles/light_Poles.jpg"
-      },
-      {
-        "code": "TSL - 2024 - OLFL - 03",
-        "wattage": 8,
-        "imageUrl": "../AssertsAll/poles/light_Poles.jpg"
-      },
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 4.png",
+      "Name":"Cast_Aluminium_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 5.png",
+      "Name":"Cast_Aluminium_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 6.png",
+      "Name":"Cast_Aluminium_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 7.png",
+      "Name":"Cast_Aluminium_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 8.png",
+      "Name":"Cast_Aluminium_Poles",
+    },
+
+    {
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 9.png",
+      "Name":"Cast_Aluminium_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 10.png",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 11.png",
+      "Name":"Cast_Aluminium_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 12.png",
+      "Name":"Cast_Aluminium_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 13.png",
+      "Name":"Cast_Aluminium_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 14.png",
+      "Name":"Cast_Aluminium_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 15.png",
+      "Name":"Cast_Aluminium_Poles",
+    },
+    
   ]
   
 

@@ -13,152 +13,58 @@
 //     scale: 0.2
 //   })
 
+import data1 from './data.js';
 
+const cardsContainer = document.getElementById('cards-container');
+const filterButtons = document.querySelectorAll('.filter-button');
 
+function displayCards(data) {
+    cardsContainer.innerHTML = ''; // Clear the container
 
-
-
-
-
-
-
-
-// import images from './images.js'; // Ensure images.js is correctly imported
-
-// // Function to create slides for a specific Swiper instance
-// function createSlides(swiperClass, sliderData) {
-//     const swiperContainer = document.querySelector(`.${swiperClass}`);
-//     const swiperWrapper = swiperContainer.querySelector('.swiper-wrapper');
-
-//     // Clear any existing slides
-//     swiperWrapper.innerHTML = '';
-
-//     // Dynamically generate the slides
-//     sliderData.forEach(card => {
-//         const slide = document.createElement("div");
-//         slide.classList.add("swiper-slide");
-
-//         slide.innerHTML = `
-//         <div class="red-section">
-//             <img src="${card.image}" alt="${card.heading}">
-//         </div>
-//         <div class="blue-section">
-//             <h3>${card.heading}</h3>
-//             <table>
-//                 <tr>
-//                     <th>Cat No.</th>
-//                     <th>Wattage</th>
-//                     <th>Height</th>
-//                     <th>MRP</th>
-//                 </tr>
-//                 <tr>
-//                     <td>${card.catNo}</td>
-//                     <td>${card.wattage}</td>
-//                     <td>${card.height}</td>
-//                     <td>${card.mrp}</td>
-//                 </tr>
-//             </table>
-//         </div>
-//         `;
-
-//         swiperWrapper.appendChild(slide);
-//     });
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-import data1 from './data.js'; // Data for the first Swiper
-import data2 from './images.js'; // Data for the second Swiper (different data)
-
-// First Swiper Initialization
-var swiper1 = new Swiper(".swiper1", {
-  slidesPerView: 4,
-  spaceBetween: 30,
-  pagination: {
-    el: ".swiper-pagination1",
-    type: "fraction",
-  },
-  navigation: {
-    nextEl: ".swiper-button-next1",
-    prevEl: ".swiper-button-prev1",
-  },
-});
-
-// Second Swiper Initialization
-var swiper2 = new Swiper(".swiper2", {
-  slidesPerView: 4,
-  spaceBetween: 30,
-  pagination: {
-    el: ".swiper-pagination2",
-    type: "fraction",
-  },
-  navigation: {
-    nextEl: ".swiper-button-next2",
-    prevEl: ".swiper-button-prev2",
-  },
-});
-
-// Function to populate the first Swiper
-function populateSwiper1() {
-  const swiperWrapper1 = document.getElementById('swiper-wrapper1');
-
-  data1.forEach((item) => {
-    const slideDiv = document.createElement('div');
-    slideDiv.classList.add('swiper-slide');
-
-    slideDiv.innerHTML = `
-      <div class="card">
-        <img src="${item.imageUrl}" alt="Product Image">
-        <div class="card-info">
-          <p>${item.code}</p>
-          <p>${item.wattage} Watt</p>
-        </div>
-      </div>
-    `;
-
-    swiperWrapper1.appendChild(slideDiv);
-  });
-
-  swiper1.update(); // Reinitialize Swiper after adding slides
+    data.forEach(item => {
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.innerHTML = `
+            <img src="${item.imageUrl}" alt="Image of ${item['No'] || item['CAT REF No']}">
+        `;
+        cardsContainer.appendChild(card);
+    });
 }
 
-// Function to populate the second Swiper
-function populateSwiper2() {
-  const swiperWrapper2 = document.getElementById('swiper-wrapper2');
 
-  data2.forEach((item) => {
-    const slideDiv = document.createElement('div');
-    slideDiv.classList.add('swiper-slide');
+// Initial display of all cards
+displayCards(data1);
 
-    slideDiv.innerHTML = `
-      <div class="card">
-        <img src="${item.imageUrl}" alt="Product Image">
-        <div class="card-info">
-          <p>${item.code}</p>
-          <p>${item.wattage} Watt</p>
-        </div>
-      </div>
-    `;
+// Filter functionality
+filterButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
 
-    swiperWrapper2.appendChild(slideDiv);
-  });
+        const category = button.getAttribute('data-category');
+        let filteredData;
 
-  swiper2.update(); // Reinitialize Swiper after adding slides
-}
+        if (category === 'all') {
+            filteredData = data1; // Show all items
+        } else {
+            // Filter items based on the "Name" property
+            filteredData = data1.filter(item => item.Name === category);
+        }
 
-// Call the functions to populate both Swipers
-populateSwiper1();
-populateSwiper2();
+        displayCards(filteredData); // Assuming this function displays the filtered data
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
 
 
 

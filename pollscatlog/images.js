@@ -1,7 +1,7 @@
 const data1 = [
     {
       "code": "TSL - 2024 - OLFL - 01",
-      "wattage": 4,
+      "wattage": 9,
       "imageUrl": "../AssertsAll/bollards/Bollards.jpg"
     },
     {
@@ -11,7 +11,7 @@ const data1 = [
     },
     {
       "code": "TSL - 2024 - OLFL - 03",
-      "wattage": 8,
+      "wattage": 9,
       "imageUrl": "../AssertsAll/bollards/Bollards.jpg"
     },
     {
