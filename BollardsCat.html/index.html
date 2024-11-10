@@ -46,8 +46,18 @@
                 </div>
             </nav>
             <div id="hero-content">
-                <img src="../AssertsAll/Bollards_45.png" alt="Decorative Poles Background" id="hero-background">
-                <!-- <h1 id="hero-text">Decorative Poles</h1> -->
+                <div class="slide active">
+                    <img src="../AssertsAll/Bollards_1.png" alt="Decorative Poles Background 1">
+                </div>
+                <div class="slide">
+                    <img src="../AssertsAll/Bollards_2.png" alt="Decorative Poles Background 2">
+                </div>   
+                <div class="slide">
+                    <img src="../AssertsAll/Bollards_3.png" alt="Decorative Poles Background 2">
+                </div>          
+                <!-- Navigation Arrows -->
+                <button class="arrow left" onclick="prevSlide()">&#10094;</button>
+                <button class="arrow right" onclick="nextSlide()">&#10095;</button>
             </div>
             <!-- <div class="button-container">
                 <button class="filter-button active" data-category="all">All</button>
@@ -110,7 +120,6 @@
             </div>
         </footer>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="module" src="index.js"></script>
 </body>
 </html>

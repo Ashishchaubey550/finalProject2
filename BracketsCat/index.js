@@ -117,3 +117,39 @@ filterButtons.forEach(button => {
 //     duration: 0.5,
 //     scale: 0.2
 //   })
+
+
+
+
+// =======================================Slider banner===================================
+
+let currentSlide = 0;
+const slides = document.querySelectorAll(".slide");
+const nextButton = document.querySelector(".arrow.right");
+const prevButton = document.querySelector(".arrow.left");
+
+function showSlide(index) {
+    slides.forEach((slide, i) => {
+        slide.classList.toggle("active", i === index);
+    });
+}
+
+function nextSlide() {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+}
+
+function prevSlide() {
+    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+    showSlide(currentSlide);
+}
+
+// Event listeners for buttons
+nextButton.addEventListener("click", nextSlide);
+prevButton.addEventListener("click", prevSlide);
+
+// Automatic slide change every 3 seconds
+setInterval(nextSlide, 7000);
+
+// Initialize the first slide as visible
+showSlide(currentSlide);

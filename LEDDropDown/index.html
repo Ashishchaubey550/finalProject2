@@ -46,8 +46,19 @@
                 </div>
             </nav>
             <div id="hero-content">
-                <img src="../AssertsAll/LED_Drop_Down_2.png" alt="Decorative Poles Background" id="hero-background">
-                <!-- <h1 id="hero-text">Decorative Poles</h1> -->
+                <div class="slide active">
+                    <img src="../AssertsAll/LED_Drop_Down_1.png" alt="Decorative Poles Background 1">
+                </div>
+                <div class="slide">
+                    <img src="../AssertsAll/LED_Drop_Down_2.png" alt="Decorative Poles Background 2">
+                </div>
+                <div class="slide">
+                    <img src="../AssertsAll/LED_Drop_Down_3.png" alt="Decorative Poles Background 3">
+                </div>
+            
+                <!-- Navigation Arrows -->
+                <button class="arrow left" onclick="prevSlide()">&#10094;</button>
+                <button class="arrow right" onclick="nextSlide()">&#10095;</button>
             </div>
             <div class="button-container">
                 <button class="filter-button active" data-category="all">All</button>
