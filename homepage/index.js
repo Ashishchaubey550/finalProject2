@@ -36,7 +36,7 @@ setTimeout(function() {
     mainContent.classList.add('visible'); // Add class to show the main content
 
     // Restart the video from the beginning
-    video.currentTime = 0;
+    video.currentTime = -2;
     video.play(); // Play the video
 }, 6500);
 

@@ -38,21 +38,48 @@ displayCards(data1);
 // Filter functionality
 filterButtons.forEach(button => {
     button.addEventListener('click', () => {
+        // Remove 'active' class from all buttons and add it to the clicked button
         filterButtons.forEach(btn => btn.classList.remove('active'));
         button.classList.add('active');
 
+        // Get the category from the clicked button's data attribute
         const category = button.getAttribute('data-category');
         let filteredData;
 
-        if (category === 'all') {
-            filteredData = data1; // Show all items
+        // If no category is selected or it's empty, show only 'Cast_Aluminium_Poles'
+        if (!category || category === '') {
+            filteredData = data1.filter(item => item.Name === 'Cast_Aluminium_Poles');
         } else {
-            // Filter items based on the "Name" property
+            // Filter items based on the selected category
             filteredData = data1.filter(item => item.Name === category);
         }
 
-        displayCards(filteredData); // Assuming this function displays the filtered data
+        // Display the filtered data
+        displayCards(filteredData);
     });
+});
+
+// Set default category filter when the page loads (if no filter is active)
+document.addEventListener('DOMContentLoaded', () => {
+    // Trigger the filter for 'Cast_Aluminium_Poles' if no category is selected on page load
+    let category = '';  // Ensure category is empty on page load
+
+    // Simulate a click on the default category (or filter manually)
+    let filteredData;
+    if (!category || category === '') {
+        filteredData = data1.filter(item => item.Name === 'Cast_Aluminium_Poles');
+    } else {
+        filteredData = data1.filter(item => item.Name === category);
+    }
+
+    // Display the filtered data for 'Cast_Aluminium_Poles'
+    displayCards(filteredData);
+
+    // Optionally add the 'active' class to the 'Cast_Aluminium_Poles' button (if available)
+    const defaultButton = filterButtons.find(button => button.getAttribute('data-category') === 'Cast_Aluminium_Poles');
+    if (defaultButton) {
+        defaultButton.classList.add('active');
+    }
 });
 
 
