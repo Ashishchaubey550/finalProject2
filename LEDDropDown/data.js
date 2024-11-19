@@ -1,93 +1,68 @@
 const data1 = [
-    {
-      "No": "TSL - 2024 - OLFL - 01",
-      "size":"1980mm",
-      "imageUrl": "../AssertsAll/poles/light_Poles.jpg",
-      "TSL":"Hello",
-      "wattage": 6,
-    },
-    {
-      "CAT REF No": "TSL - 2024 - OLFL - 01",
-      "size":"1980mm",
-      "imageUrl": "../AssertsAll/poles/light_Poles.jpg",
-      "TSL":"jhdfjefgsufbskjgyfuyeyjrgvubkdjygvbukwejbvukwjbvukwjybuevbukbveu",
-      "wattage": 6,
-
-    },
-    {
-      "CAT REF No": "TSL - 2024 - OLFL - 01",
-      "size":"1980mm",
-      "imageUrl": "../AssertsAll/poles/light_Poles.jpg",
-      "TSL":"jhdfjefgsufbskjgyfuyeyjrgvubkdjygvbukwejbvukwjbvukwjybuevbukbveu",
-      "wattage": 6,
-
-    },
-    {
-      "CAT REF No": "TSL - 2024 - OLFL - 01",
-      "size":"1980mm",
-      "imageUrl": "../AssertsAll/poles/light_Poles.jpg",
-      "TSL":"jhdfjefgsufbskjgyfuyeyjrgvubkdjygvbukwejbvukwjbvukwjybuevbukbveu",
-      "wattage": 6,
-
-    },
-    {
-      "CAT REF No": "TSL - 2024 - OLFL - 01",
-      "size":"1980mm",
-      "imageUrl": "../AssertsAll/poles/light_Poles.jpg",
-      "TSL":"jhdfjefgsufbskjgyfuyeyjrgvubkdjygvbukwejbvukwjbvukwjybuevbukbveu",
-      "wattage": 6,
-
-    },
-    {
-      "CAT REF No": "TSL - 2024 - OLFL - 01",
-      "size":"1980mm",
-      "imageUrl": "../AssertsAll/poles/light_Poles.jpg",
-      "TSL":"jhdfjefgsufbskjgyfuyeyjrgvubkdjygvbukwejbvukwjbvukwjybuevbukbveu",
-      "wattage": 6,
-
-    },
-    {
-      "CAT REF No": "TSL - 2024 - OLFL - 01",
-      "size":"1980mm",
-      "imageUrl": "../AssertsAll/poles/light_Poles.jpg",
-      "TSL":"jhdfjefgsufbskjgyfuyeyjrgvubkdjygvbukwejbvukwjbvukwjybuevbukbveu",
-      "wattage": 16,
-
-    },
-    {
-      "CAT REF No": "TSL - 2024 - OLFL - 01",
-      "size":"1980mm",
-      "imageUrl": "../AssertsAll/poles/light_Poles.jpg",
-      "TSL":"jhdfjefgsufbskjgyfuyeyjrgvubkdjygvbukwejbvukwjbvukwjybuevbukbveu",
-      "wattage": 9,
-
-    },
-    {
-      "CAT REF No": "TSL - 2024 - OLFL - 01",
-      "size":"1980mm",
-      "imageUrl": "../AssertsAll/poles/light_Poles.jpg",
-      "TSL":"jhdfjefgsufbskjgyfuyeyjrgvubkdjygvbukwejbvukwjbvukwjybuevbukbveu",
-      "wattage": 1,
-
-    },
-    {
-      "CAT REF No": "TSL - 2024 - OLFL - 01",
-      "size":"1980mm",
-      "imageUrl": "../AssertsAll/poles/light_Poles.jpg",
-      "TSL":"jhdfjefgsufbskjgyfuyeyjrgvubkdjygvbukwejbvukwjbvukwjybuevbukbveu",
-      "wattage": 2,
-
-    },
-    {
-      "CAT REF No": "TSL - 2024 - OLFL - 01",
-      "size":"1980mm",
-      "imageUrl": "../AssertsAll/poles/light_Poles.jpg",
-      "TSL":"jhdfjefgsufbskjgyfuyeyjrgvubkdjygvbukwejbvukwjbvukwjybuevbukbveu",
-      "wattage": 3,
-
-    },
-    
-  ]
-  
-
+  {
+    "imageUrl": "../AssertsAll/LED_Drop_Down/LED Drop Down.png",
+    "Name":"Cast_Aluminium_Poles",
+  },
+  {
+    "imageUrl": "../AssertsAll/LED_Drop_Down/LED Drop Down (2).png",
+    "Name":"Cast_Aluminium_Poles",
+  },
+  {
+    "imageUrl": "../AssertsAll/LED_Drop_Down/LED Drop Down (3).png",
+    "Name":"Cast_Aluminium_Poles",
+  },
+  {
+    "imageUrl": "../AssertsAll/LED_Drop_Down/LED Drop Down (4).png",
+    "Name":"Cast_Aluminium_Poles",
+  },
+  {
+    "imageUrl": "../AssertsAll/LED_Drop_Down/LED Drop Down (5).png",
+    "Name":"Cast_Aluminium_Poles",
+  },
+  {
+    "imageUrl": "../AssertsAll/LED_Drop_Down/LED Drop Down (6).png",
+    "Name":"Cast_Aluminium_Poles",
+  },
+  {
+    "imageUrl": "../AssertsAll/LED_Drop_Down/LED Drop Down (7).png",
+    "Name":"Cast_Aluminium_Poles",
+  },
+  {
+    "imageUrl": "../AssertsAll/LED_Drop_Down/LED Drop Down (8).png",
+    "Name":"Cast_Aluminium_Poles",
+  },
+  {
+    "imageUrl": "../AssertsAll/LED_Drop_Down/LED Drop Down (9).png",
+    "Name":"Cast_Aluminium_Poles",
+  },
+  {
+    "imageUrl": "../AssertsAll/LED_Drop_Down/LED Drop Down (10).png",
+    "Name":"Cast_Aluminium_Poles",
+  },
+  {
+    "imageUrl": "../AssertsAll/LED_Drop_Down/LED Drop Down (11).png",
+    "Name":"Cast_Aluminium_Poles",
+  },
+  {
+    "imageUrl": "../AssertsAll/LED_Drop_Down/LED Drop Down (12).png",
+    "Name":"Cast_Aluminium_Poles",
+  },
+  {
+    "imageUrl": "../AssertsAll/LED_Drop_Down/LED Drop Down (13).png",
+    "Name":"Cast_Aluminium_Poles",
+  },
+  {
+    "imageUrl": "../AssertsAll/LED_Drop_Down/LED Drop Down (14).png",
+    "Name":"Cast_Aluminium_Poles",
+  },
+  {
+    "imageUrl": "../AssertsAll/LED_Drop_Down/LED Drop Down (15).png",
+    "Name":"Cast_Aluminium_Poles",
+  },
+  {
+    "imageUrl": "../AssertsAll/LED_Drop_Down/LED Drop Down (16).png",
+    "Name":"Cast_Aluminium_Poles",
+  },
+]
 export default data1;
+

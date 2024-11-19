@@ -80,6 +80,7 @@ body.loading #main {
 nav {
     background-color: whitesmoke;
     padding: 2vw;
+    padding-right: 6vw;
     width: 100%;
     height: 100px;
     display: flex;
@@ -90,6 +91,7 @@ nav {
 }
 
 #logo_img {
+
     height: 110px;
     width: 250px;
     object-fit: cover;
@@ -111,7 +113,7 @@ nav {
     padding: 10px 20px;
     border-radius: 50px;
     color: #032a25;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 500;
     position: relative;
     overflow: hidden;

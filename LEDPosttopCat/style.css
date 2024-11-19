@@ -3,38 +3,45 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: whitesmoke;
 }
 #herosection {
-    position: relative;
-    height: 350vh;
+    height: 100vh;
     width: 100%;
     background-color: whitesmoke;
 }
+.cards-grid {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    background-color: whitesmoke;
+}
 #hero-content {
-    margin-top: -40px;
     position: relative;
     width: 100%;
-    height: 33%;
+    height: 80%;
     display: flex;
-    object-fit: cover;
     justify-content: center;  /* Center horizontally */
     align-items: center; 
 }
 .slide {
+    margin-top: 0px;
     position: absolute;
     width: 100%;
-    height: 90%;
+    height: 100%;
+    background-color: #032a25;
     opacity: 0;
 }
 
 .slide.active {
     opacity: 1;
 }
-
 .slide img {
     width: 100%;
     height: 100%;
-}
+} 
 
 /* Arrow Button Styling */
 .arrow {
@@ -61,56 +68,56 @@
 .arrow:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
-.cards-grid {
-    padding: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    background-color: #f8f8f8;
-}
 
 .card {
-    width: 220px;
-    border-radius: 5px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-    border: 2px solid #E0E0E0;
-    text-align: center;
+    width: fit-content;
+    height: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border: 1px solid #e0e0e0;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
 }
 
-.card-header{
-    display: flex;
-    padding: 10px;
-    border-top: 1px solid #E0E0E0;
-}
-.card-details{
-    display: flex;
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 .card img {
-    width: 100%;
-    height: auto;
-    max-height: 150px;
-    object-fit: cover;
-    border-bottom: 1px solid #E0E0E0;
+    width: 300px;
+    height: 520px;
+    object-fit: fill;
+    border-bottom: 1px solid #ddd;
 }
 
-.card-header h2 {
-    font-size: 10px;
-    margin: 0;
-    color: #333;
+.card-header {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #444;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+
 }
 
 .card-details {
+    padding: 15px;
     font-size: 12px;
     color: #666;
+    line-height: 1.5;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
 }
 
-.card-details p {
-    margin: 5px 0;
-}
+
+
 
 
 /* .card h2::before {
@@ -138,53 +145,67 @@
     color: whitesmoke;
     font-weight: 600;
     text-align: center;
-    position: absolute;
     z-index: 1;
     bottom: 4.5vw;
 }
 .button-container {
+    margin-top: -200px;
     margin: auto;
-    width: 1000px;
+    width: 100%;
+    max-width: 900px;
     display: flex;
-    flex-wrap: wrap;          /* Allows buttons to wrap onto a new line */
-    justify-content: center;  /* Centers the buttons horizontally */
-    align-items: center;      /* Vertically centers the buttons in each row */
-    gap: 10px;                /* Adds space between buttons */
-    padding: 30px;            /* Adjust padding for spacing */
-    background-color: whitesmoke; /* Background of the container */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
+    background-color: whitesmoke;
+    box-sizing: border-box;
 }
-
 .filter-button {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: 600;
-    color: whitesmoke;
-    background-color: #29372a;
     border-radius: 30px;
-    padding: 10px 20px;       /* Adds space inside the buttons */
+    padding: 10px 20px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    color: #032A25;
+    border: 2px solid #032A25; /* Default border */
+    background-color: whitesmoke;
+    position: relative; /* Needed for pseudo-elements */
+    transition: all 0.3s ease;
 }
-.filter-button::before {
+
+
+.filter-button.active {
+    color: #032A25; /* Green text */
+    background-color: whitesmoke; /* White background */
+    position: relative;
+    padding: 8px 16px; /* Adjust padding */
+    border: none; /* Remove default border */
+    border-radius: 30px; /* Rounded corners */
+    z-index: 1; /* Place above the pseudo-element */
+}
+
+.filter-button.active::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 4px; /* This will be the height of the "border" */
-    background: linear-gradient(to right, #f9f295, #e0aa3e, #e0aa3e, #b88a44); /* Gradient for the border */
-}
-.filter-button:hover {
-    background-color: #3e503f; /* Darker shade on hover */
+    top: -3px; /* Adjust to border thickness */
+    left: -3px;
+    right: -3px;
+    bottom: -3px;
+    z-index: -1; /* Behind the button */
+    background: linear-gradient(to right, #f9f295, #e0aa3e, #e0aa3e, #B88A44);
+    border-radius: 30px; /* Match the button's border radius + border thickness */
+    /* Mask the inner area to create the border effect */
+    mask: linear-gradient(white, white) content-box, linear-gradient(white, white);
+    -webkit-mask: linear-gradient(white, white) content-box, linear-gradient(white, white);
+    mask-composite: exclude; /* For supported browsers */
+    -webkit-mask-composite: destination-out;
+    padding: 3px; /* Match the top/left/right/bottom adjustments */
 }
 
-.active {
-    background: linear-gradient(to right, #e0af5b, #d4a13f);
-    color: white;
-}
 
-
-/* Full page width and height settings */
 html, body {
     width: 100%;
     height: 100%;
@@ -198,6 +219,7 @@ html, body {
 nav {
     background-color: whitesmoke;
     padding: 2vw;
+    padding-right: 6vw;
     width: 100%;
     height: 100px;
     display: flex;
@@ -208,6 +230,7 @@ nav {
 }
 
 #logo_img {
+
     height: 110px;
     width: 250px;
     object-fit: cover;
@@ -229,7 +252,7 @@ nav {
     padding: 10px 20px;
     border-radius: 50px;
     color: #032a25;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 500;
     position: relative;
     overflow: hidden;
@@ -341,12 +364,16 @@ footer::before {
 }
 
 .footer-container {
+    background-color: #111;
+    color: #fff;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .footer-logo,
 .footer-links {
+    background-color: #111;
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -354,6 +381,8 @@ footer::before {
 }
 
 .footer-logo {
+    background-color: #111;
+    color: #fff;
     flex-basis: 25%;
     text-align: left;
     height: 110px;
@@ -361,49 +390,66 @@ footer::before {
     object-fit: cover;
 }
 #footerlogo{
+    background-color: #111;
+    color: #fff;
     height: 80px;
     width: 60%;
     object-fit: cover;
 }
 #logo_img{
+
     height: 110px;
     width: 250px;
     object-fit: cover;
 }
 .footer-logo h2 {
+    background-color: #111;
+    color: #fff;
     font-size: 24px;
     font-weight: bold;
     letter-spacing: 1px;
 }
 
 .footer-logo p {
+    background-color: #111;
+    color: #fff;
     font-size: 14px;
     color: #ccc;
     margin-top: 5px;
 }
 
 .footer-links {
+    background-color: #111;
+    color: #fff;
     flex-basis: 70%;
     display: flex;
     justify-content: space-between;
 }
 
 .footer-links ul {
+    background-color: #111;
+    color: #fff;
     list-style: none;
     padding: 0;
 }
 
 .footer-links ul li {
+    background-color: #111;
+    color: #fff;
     margin: 10px 0;
 }
 
 .footer-links ul li a {
+    background-color: #111;
+    color: #fff;
     color: #fff;
     text-decoration: none;
     font-size: 14px;
 }
 
 .footer-links ul li a:hover {
+    background-color: #111;
+    color: #fff;
     text-decoration: underline;
 }
 
@@ -417,11 +463,16 @@ footer::before {
 }
 
 .footer-socials {
+    background-color: #111;
+    color: #fff;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    
 }
 .footer-socials img{
+    background-color: #111;
+    color: #fff;
     border: 1px solid #e0aa3e;
     border-radius: 50%;
     width: 50px;
@@ -439,10 +490,14 @@ footer::before {
 } */
 
 .footer-socials a:hover {
+    background-color: #111;
+    color: #fff;
     color: #aaa;
 }
 
 .footer-copyright {
+    background-color: #111;
+    color: #fff;
     text-align: center;
     font-size: 14px;
     color: #ccc;

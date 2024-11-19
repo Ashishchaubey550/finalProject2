@@ -187,9 +187,182 @@ const data1 = [
       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (20).png",
       "Name":"LED_Street_Lights",
     },
-    
+    {
+      "imageUrl": "../AssertsAll/Straight_Line_Poles/Straight Line Poles (1).png",
+      "Name":"Straight_Line_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Straight_Line_Poles/Straight Line Poles (2).png",
+      "Name":"Straight_Line_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Straight_Line_Poles/Straight Line Poles (3).png",
+      "Name":"Straight_Line_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Straight_Line_Poles/Straight Line Poles (4).png",
+      "Name":"Straight_Line_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Iron_Poles/Cast Iron Poles 1.png",
+      "Name":"Cast_Iron_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Iron_Poles/Cast Iron Poles 2.png",
+      "Name":"Cast_Iron_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Iron_Poles/Cast Iron Poles 3.png",
+      "Name":"Cast_Iron_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Iron_Poles/Cast Iron Poles 4.png",
+      "Name":"Cast_Iron_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Iron_Poles/Cast Iron Poles 5.png",
+      "Name":"Cast_Iron_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Iron_Poles/Cast Iron Poles 6.png",
+      "Name":"Cast_Iron_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Iron_Poles/Cast Iron Poles 7.png",
+      "Name":"Cast_Iron_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Iron_Poles/Cast Iron Poles 8.png",
+      "Name":"Cast_Iron_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Iron_Poles/Cast Iron Poles 9.png",
+      "Name":"Cast_Iron_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Iron_Poles/Cast Iron Poles 10.png",
+      "Name":"Cast_Iron_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Iron_Poles/Cast Iron Poles 11.png",
+      "Name":"Cast_Iron_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Iron_Poles/Cast Iron Poles 12.png",
+      "Name":"Cast_Iron_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 1.png",
+      "Name":"Cast_Iron/Aluminium_poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 2.png",
+      "Name":"Cast_Iron/Aluminium_poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 3.png",
+      "Name":"Cast_Iron/Aluminium_poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 4.png",
+      "Name":"Cast_Iron/Aluminium_poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 5.png",
+      "Name":"Cast_Iron/Aluminium_poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 6.png",
+      "Name":"Cast_Iron/Aluminium_poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 7.png",
+      "Name":"Cast_Iron/Aluminium_poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 8.png",
+      "Name":"Cast_Iron/Aluminium_poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 9.png",
+      "Name":"Cast_Iron/Aluminium_poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 10.png",
+      "Name":"Cast_Iron/Aluminium_poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 11.png",
+      "Name":"Cast_Iron/Aluminium_poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 12.png",
+      "Name":"Cast_Iron/Aluminium_poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 13.png",
+      "Name":"Cast_Iron/Aluminium_poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 14.png",
+      "Name":"Cast_Iron/Aluminium_poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 15.png",
+      "Name":"Cast_Iron/Aluminium_poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 16.png",
+      "Name":"Cast_Iron/Aluminium_poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (2).png",
+      "Name":"Decorative_Columns",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (3).png",
+      "Name":"Decorative_Columns",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (4).png",
+      "Name":"Decorative_Columns",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (5).png",
+      "Name":"Decorative_Columns",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (6).png",
+      "Name":"Decorative_Columns",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (7).png",
+      "Name":"Decorative_Columns",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (8).png",
+      "Name":"Decorative_Columns",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (9).png",
+      "Name":"Decorative_Columns",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (10).png",
+      "Name":"Decorative_Columns",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (11).png",
+      "Name":"Decorative_Columns",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (12).png",
+      "Name":"Decorative_Columns",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (13).png",
+      "Name":"Decorative_Columns",
+    },
   ]
-  
-
 export default data1;
 

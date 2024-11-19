@@ -16,9 +16,8 @@
 import data1 from './data.js';
 
 const cardsContainer = document.getElementById('cards-container');
-const filterButtons = document.querySelectorAll('.filter-button'); // Ensure you define filterButtons
+const filterButtons = document.querySelectorAll('.filter-button');
 
-// Function to display cards
 function displayCards(data) {
     cardsContainer.innerHTML = ''; // Clear the container
 
@@ -26,18 +25,12 @@ function displayCards(data) {
         const card = document.createElement('div');
         card.className = 'card';
         card.innerHTML = `
-            <img src="${item.imageUrl}" alt="Image of ${item['CAT REF No']}">
-            <div class="card-header">
-                <h2>CAT REF No: ${item.No}</h2>
-                <p>Size: ${item.size}</p>
-            </div>
-            <div class="card-details">
-                <p>TSL: ${item.TSL}</p>
-            </div>
+            <img src="${item.imageUrl}" alt="Image of ${item['No'] || item['CAT REF No']}">
         `;
         cardsContainer.appendChild(card);
     });
 }
+
 
 // Initial display of all cards
 displayCards(data1);
@@ -45,28 +38,53 @@ displayCards(data1);
 // Filter functionality
 filterButtons.forEach(button => {
     button.addEventListener('click', () => {
+        // Remove 'active' class from all buttons and add it to the clicked button
         filterButtons.forEach(btn => btn.classList.remove('active'));
         button.classList.add('active');
 
+        // Get the category from the clicked button's data attribute
         const category = button.getAttribute('data-category');
         let filteredData;
 
-        console.log(`Filtering category: ${category}`); // Log selected category
-
-        if (category === 'low-wattage') {
-            filteredData = data1.filter(item => item.wattage && item.wattage <= 1980);
-        } else if (category === 'medium-wattage') {
-            filteredData = data1.filter(item => item.wattage && item.wattage > 5 && item.wattage <= 8);
-        } else if (category === 'high-wattage') {
-            filteredData = data1.filter(item => item.wattage && item.wattage > 8);
+        // If no category is selected or it's empty, show only 'Cast_Aluminium_Poles'
+        if (!category || category === '') {
+            filteredData = data1.filter(item => item.Name === 'Cast_Aluminium_Poles');
         } else {
-            filteredData = data1; // Show all for "All" category
+            // Filter items based on the selected category
+            filteredData = data1.filter(item => item.Name === category);
         }
 
-        console.log(`Filtered data:`, filteredData); // Log filtered data
+        // Display the filtered data
         displayCards(filteredData);
     });
 });
+
+// Set default category filter when the page loads (if no filter is active)
+document.addEventListener('DOMContentLoaded', () => {
+    // Trigger the filter for 'Cast_Aluminium_Poles' if no category is selected on page load
+    let category = '';  // Ensure category is empty on page load
+
+    // Simulate a click on the default category (or filter manually)
+    let filteredData;
+    if (!category || category === '') {
+        filteredData = data1.filter(item => item.Name === 'Cast_Aluminium_Poles');
+    } else {
+        filteredData = data1.filter(item => item.Name === category);
+    }
+
+    // Display the filtered data for 'Cast_Aluminium_Poles'
+    displayCards(filteredData);
+
+    // Optionally add the 'active' class to the 'Cast_Aluminium_Poles' button (if available)
+    const defaultButton = filterButtons.find(button => button.getAttribute('data-category') === 'Cast_Aluminium_Poles');
+    if (defaultButton) {
+        defaultButton.classList.add('active');
+    }
+});
+
+
+
+
 
 // =======================================Slider banner===================================
 
@@ -100,10 +118,6 @@ setInterval(nextSlide, 7000);
 
 // Initialize the first slide as visible
 showSlide(currentSlide);
-
-
-
-
 
 
 
