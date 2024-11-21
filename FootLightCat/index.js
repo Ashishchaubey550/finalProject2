@@ -36,6 +36,7 @@ function displayCards(data) {
 displayCards(data1);
 
 // Filter functionality
+// Filter functionality
 filterButtons.forEach(button => {
     button.addEventListener('click', () => {
         // Remove 'active' class from all buttons and add it to the clicked button
@@ -46,9 +47,9 @@ filterButtons.forEach(button => {
         const category = button.getAttribute('data-category');
         let filteredData;
 
-        // If no category is selected or it's empty, show only 'Cast_Aluminium_Poles'
+        // If no category is selected or it's empty, show all items
         if (!category || category === '') {
-            filteredData = data1.filter(item => item.Name === 'Cast_Aluminium_Poles');
+            filteredData = data1; // Display all items
         } else {
             // Filter items based on the selected category
             filteredData = data1.filter(item => item.Name === category);
@@ -61,22 +62,11 @@ filterButtons.forEach(button => {
 
 // Set default category filter when the page loads (if no filter is active)
 document.addEventListener('DOMContentLoaded', () => {
-    // Trigger the filter for 'Cast_Aluminium_Poles' if no category is selected on page load
-    let category = '';  // Ensure category is empty on page load
+    // Display all items by default on page load
+    displayCards(data1);
 
-    // Simulate a click on the default category (or filter manually)
-    let filteredData;
-    if (!category || category === '') {
-        filteredData = data1.filter(item => item.Name === 'Cast_Aluminium_Poles');
-    } else {
-        filteredData = data1.filter(item => item.Name === category);
-    }
-
-    // Display the filtered data for 'Cast_Aluminium_Poles'
-    displayCards(filteredData);
-
-    // Optionally add the 'active' class to the 'Cast_Aluminium_Poles' button (if available)
-    const defaultButton = filterButtons.find(button => button.getAttribute('data-category') === 'Cast_Aluminium_Poles');
+    // Optionally add the 'active' class to a default button if desired
+    const defaultButton = filterButtons.find(button => button.getAttribute('data-category') === '');
     if (defaultButton) {
         defaultButton.classList.add('active');
     }

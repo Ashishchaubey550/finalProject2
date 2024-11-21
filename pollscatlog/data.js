@@ -363,6 +363,90 @@ const data1 = [
       "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (13).png",
       "Name":"Decorative_Columns",
     },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Poles/Decorative Poles (1).png",
+      "Name":"Decorative_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Poles/Decorative Poles (2).png",
+      "Name":"Decorative_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Poles/Decorative Poles (3).png",
+      "Name":"Decorative_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Poles/Decorative Poles (4).png",
+      "Name":"Decorative_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Poles/Decorative Poles (5).png",
+      "Name":"Decorative_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Poles/Decorative Poles (6).png",
+      "Name":"Decorative_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Poles/Decorative Poles (7).png",
+      "Name":"Decorative_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Poles/Decorative Poles (8).png",
+      "Name":"Decorative_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Poles/Decorative Poles (9).png",
+      "Name":"Decorative_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Poles/Decorative Poles (10).png",
+      "Name":"Decorative_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Poles/Decorative Poles (11).png",
+      "Name":"Decorative_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Poles/Decorative Poles (12).png",
+      "Name":"Decorative_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Poles/Decorative Poles (13).png",
+      "Name":"Decorative_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Poles/Decorative Poles (14).png",
+      "Name":"Decorative_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Poles/Decorative Poles (15).png",
+      "Name":"Decorative_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Poles/Decorative Poles (16).png",
+      "Name":"Decorative_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Poles/Decorative Poles (17).png",
+      "Name":"Decorative_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Poles/Decorative Poles (18).png",
+      "Name":"Decorative_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Poles/Decorative Poles (19).png",
+      "Name":"Decorative_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Poles/Decorative Poles (20).png",
+      "Name":"Decorative_Poles",
+    },
+    {
+      "imageUrl": "../AssertsAll/Decorative_Poles/Decorative Poles (21).png",
+      "Name":"Decorative_Poles",
+    },
   ]
 export default data1;
 

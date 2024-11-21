@@ -83,14 +83,14 @@
     flex-direction: column;
 }
 
-.card:hover {
+/* .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-}
+} */
 
 .card img {
-    width: 300px;
-    height: 520px;
+    width: 250px;
+    height: 480px;
     object-fit: fill;
     border-bottom: 1px solid #ddd;
 }
