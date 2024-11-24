@@ -190,17 +190,17 @@ nav {
     text-decoration: none;
 }
 #polls_img img:hover{
-    content: url('../AssertsAll/decor.poles/light_poles.jpg'); /* Change image on hover */
+    content: url('../AssertsAll/decor.poles/light_poles.webp'); /* Change image on hover */
 }
 
 #bollards_img img:hover{
-    content: url('../AssertsAll/brackets/light_brackets.jpg'); /* Change image on hover */
+    content: url('../AssertsAll/brackets/light_brackets.webp'); /* Change image on hover */
 }
 #LEDPostTop_img img:hover{
-    content: url('../AssertsAll/ledposttop/light_LED\ Post\ top.jpg'); /* Change image on hover */
+    content: url('../AssertsAll/ledposttop/light_LED\ Post\ top.webp'); /* Change image on hover */
 }
 #LEDDropDown_img img:hover{
-    content: url('../AssertsAll/leddropdown/light_LED\ Drop\ Down.jpg'); /* Change image on hover */
+    content: url('../AssertsAll/leddropdown/light_LED\ Drop\ Down.webp'); /* Change image on hover */
 }
 /* LEDDropDown_img */
 .hover-text {
@@ -434,21 +434,21 @@ footer::before {
 
     }
     #polls_img img:hover {
-        content: url('../AssertsAll/poles/light_Poles.jpg');
+        content: url('../AssertsAll/poles/light_Poles.webp');
         object-fit: cover;
     }
     
     #bollards_img img:hover {
-        content: url('../AssertsAll/garden_lights/light_garden\ lights.jpg');
+        content: url('../AssertsAll/garden_lights/light_garden\ lights.webp');
         object-fit: cover;
 
     }
     #LEDPostTop_img img:hover{
-        content: url('../AssertsAll/ledposttop/light_LED\ Post\ top.jpg'); /* Change image on hover */
+        content: url('../AssertsAll/ledposttop/light_LED\ Post\ top.webp'); /* Change image on hover */
         object-fit: cover;
     }
     #LEDDropDown_img img:hover{
-        content: url('../AssertsAll/leddropdown/light_LED\ Drop\ Down.jpg');
+        content: url('../AssertsAll/leddropdown/light_LED\ Drop\ Down.webp');
         object-fit: cover;
     }
     footer {

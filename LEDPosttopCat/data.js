@@ -1,178 +1,178 @@
 const data1 = [
   {
-    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (1).png",
+    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (1).webp",
     "Name":"Cast_Aluminium_Poles",
   },  
   {
-    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (2).png",
+    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (2).webp",
     "Name":"Cast_Aluminium_Poles",
   }, 
   {
-    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (3).png",
+    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (3).webp",
     "Name":"Cast_Aluminium_Poles",
   }, 
   {
-    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (4).png",
+    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (4).webp",
     "Name":"Cast_Aluminium_Poles",
   }, 
   {
-    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (5).png",
+    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (5).webp",
     "Name":"Cast_Aluminium_Poles",
   }, 
   {
-    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (6).png",
+    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (6).webp",
     "Name":"Cast_Aluminium_Poles",
   }, 
   {
-    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (7).png",
+    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (7).webp",
     "Name":"Cast_Aluminium_Poles",
   }, 
   {
-    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (8).png",
+    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (8).webp",
     "Name":"Cast_Aluminium_Poles",
   }, 
   {
-    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (9).png",
+    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (9).webp",
     "Name":"Cast_Aluminium_Poles",
   }, 
   {
-    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (10).png",
+    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (10).webp",
     "Name":"Cast_Aluminium_Poles",
   }, 
   {
-    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (11).png",
+    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (11).webp",
     "Name":"Cast_Aluminium_Poles",
   }, 
   {
-    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (12).png",
+    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (12).webp",
     "Name":"Cast_Aluminium_Poles",
   }, 
   {
-    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (13).png",
+    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (13).webp",
     "Name":"Cast_Aluminium_Poles",
   }, 
   {
-    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (14).png",
+    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (14).webp",
     "Name":"Cast_Aluminium_Poles",
   }, 
   {
-    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (15).png",
+    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (15).webp",
     "Name":"Cast_Aluminium_Poles",
   }, 
   {
-    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (16).png",
+    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (16).webp",
     "Name":"Cast_Aluminium_Poles",
   }, 
   {
-    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (17).png",
+    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (17).webp",
     "Name":"Cast_Aluminium_Poles",
   }, 
   {
-    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (18).png",
+    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (18).webp",
     "Name":"Cast_Aluminium_Poles",
   }, 
   {
-    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (19).png",
+    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (19).webp",
     "Name":"Cast_Aluminium_Poles",
   }, 
   {
-    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (20).png",
+    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (20).webp",
     "Name":"Cast_Aluminium_Poles",
   }, 
   {
-    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (21).png",
+    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (21).webp",
     "Name":"Cast_Aluminium_Poles",
   }, 
   {
-    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (22).png",
+    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (22).webp",
     "Name":"Cast_Aluminium_Poles",
   }, 
   {
-    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (23).png",
+    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (23).webp",
     "Name":"Cast_Aluminium_Poles",
   }, 
   {
-    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (24).png",
+    "imageUrl": "../AssertsAll/Post_Top_LED/Post Top LED (24).webp",
     "Name":"Cast_Aluminium_Poles",
   },
   {
-    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (1).png",
+    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (1).webp",
     "Name":"Piller_Pole_Mounting",
   },
   {
-    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (2).png",
+    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (2).webp",
     "Name":"Piller_Pole_Mounting",
   },  
   {
-    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (3).png",
+    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (3).webp",
     "Name":"Piller_Pole_Mounting",
   },  
   {
-    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (4).png",
+    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (4).webp",
     "Name":"Piller_Pole_Mounting",
   },  
   {
-    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (5).png",
+    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (5).webp",
     "Name":"Piller_Pole_Mounting",
   },  
   {
-    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (6).png",
+    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (6).webp",
     "Name":"Piller_Pole_Mounting",
   },  
   {
-    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (7).png",
+    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (7).webp",
     "Name":"Piller_Pole_Mounting",
   },  
   {
-    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (8).png",
+    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (8).webp",
     "Name":"Piller_Pole_Mounting",
   },  
   {
-    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (9).png",
+    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (9).webp",
     "Name":"Piller_Pole_Mounting",
   },  
   {
-    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (10).png",
+    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (10).webp",
     "Name":"Piller_Pole_Mounting",
   },  
   {
-    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (11).png",
+    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (11).webp",
     "Name":"Piller_Pole_Mounting",
   },  
   {
-    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (12).png",
+    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (12).webp",
     "Name":"Piller_Pole_Mounting",
   },  
   {
-    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (13).png",
+    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (13).webp",
     "Name":"Piller_Pole_Mounting",
   },  
   {
-    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (14).png",
+    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (14).webp",
     "Name":"Piller_Pole_Mounting",
   },  
   {
-    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (15).png",
+    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (15).webp",
     "Name":"Piller_Pole_Mounting",
   },  
   {
-    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (16).png",
+    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (16).webp",
     "Name":"Piller_Pole_Mounting",
   },  
   {
-    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (17).png",
+    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (17).webp",
     "Name":"Piller_Pole_Mounting",
   },  
   {
-    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (18).png",
+    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (18).webp",
     "Name":"Piller_Pole_Mounting",
   },  
   {
-    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (19).png",
+    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (19).webp",
     "Name":"Piller_Pole_Mounting",
   },  
   {
-    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (20).png",
+    "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (20).webp",
     "Name":"Piller_Pole_Mounting",
   },  
 ]

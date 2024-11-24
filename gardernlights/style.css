@@ -237,11 +237,11 @@ nav {
 }
 
 #polls_img img:hover{
-    content: url('../AssertsAll/bollards/Bollards.jpg'); /* Change image on hover */
+    content: url('../AssertsAll/bollards/Bollards.webp'); /* Change image on hover */
 }
 
 #bollards_img img:hover {
-    content: url('../AssertsAll/footlights/light_foot\ lights.jpg'); /* Change image on hover */
+    content: url('../AssertsAll/footlights/light_foot\ lights.webp'); /* Change image on hover */
 }
 .hover-text {
     display: inline;
