@@ -189,11 +189,11 @@ nav {
 }
 
 #polls_img img:hover {
-    content: url('../AssertsAll/poles/light_Poles.jpg');
+    content: url('../AssertsAll/poles/light_Poles-optimized.webp');
 }
 
 #bollards_img img:hover {
-    content: url('../AssertsAll/garden_lights/light_garden\ lights.jpg');
+    content: url('../AssertsAll/garden_lights/light_garden\ lights.webp');
 }
 .hover-text {
     display: inline;
