@@ -26,7 +26,7 @@ html, body {
 } */
 #product_heading {
     position: relative;
-    /* padding: 3px 18px; Space between text and borders */
+     padding: 6px 0;
     font-family: 'Poppins', sans-serif;
     font-size: 3.5vh;
     font-weight: 600;
@@ -45,11 +45,8 @@ html, body {
     left: 0;
     right: 0;
     bottom: 0;
-    border: 3px solid transparent; /* Reserve space for the gradient */
-    background: linear-gradient(to right, #f9f295, #e0aa3e, #b88a44);
-    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-    -webkit-mask-composite: xor;
-    mask-composite: exclude;
+    border: 3px solid #032A25;
+
     /* border-radius: 30px; */
     z-index: -1; /* Place behind the heading text */
 }
@@ -58,11 +55,16 @@ html, body {
 #product_heading::after {
     content: "";
     position: absolute;
-    top: -15px; /* Extend beyond the element */
+    top: -6px; /* Extend beyond the element */
     left: 0;
     right: 0;
-    bottom: -15px;
-    border: 3px solid #032A25;
+    bottom: -6px;
+    border: 3px solid transparent; /* Reserve space for the gradient */
+    background: linear-gradient(to right, #f9f295, #e0aa3e, #b88a44);
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    /* border-radius: 30px; */
     /* border-radius: 40px; */
     z-index: -2; /* Place behind both the text and the inner border */
 }
@@ -237,7 +239,7 @@ nav {
     justify-content: center;
     color: black;
     font-size: 3vh;
-    padding-left: 10px;
+    padding-left: 30px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     text-transform: capitalize;
