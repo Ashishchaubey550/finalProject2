@@ -28,7 +28,7 @@ html, body {
     font-weight: 600;
     color: #032a25;
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     margin: auto;
 }
 

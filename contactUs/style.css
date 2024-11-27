@@ -14,7 +14,7 @@ html, body {
 #product_heading{
     text-align: center;
     font-size: 6vh;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color: #032A25;
     font-weight: 600;
     margin: auto;
