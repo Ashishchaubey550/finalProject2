@@ -109,83 +109,83 @@ const data1 = [
     },
     {
       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (1).webp",
-      "Name":"LED_Street_Lights",
+      "Name":"Decorative_Columns",
     },
     {
       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (2).webp",
-      "Name":"LED_Street_Lights",
+      "Name":"Decorative_Columns",
     },
     {
       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (3).webp",
-      "Name":"LED_Street_Lights",
+      "Name":"Decorative_Columns",
     },
     {
       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (4).webp",
-      "Name":"LED_Street_Lights",
+      "Name":"Decorative_Columns",
     },
     {
       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (5).webp",
-      "Name":"LED_Street_Lights",
+      "Name":"Decorative_Columns",
     },
     {
       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (6).webp",
-      "Name":"LED_Street_Lights",
+      "Name":"Decorative_Columns",
     },
     {
       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (7).webp",
-      "Name":"LED_Street_Lights",
+      "Name":"Decorative_Columns",
     },
     {
       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (8).webp",
-      "Name":"LED_Street_Lights",
+      "Name":"Decorative_Columns",
     },
     {
       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (9).webp",
-      "Name":"LED_Street_Lights",
+      "Name":"Decorative_Columns",
     },
     {
       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (10).webp",
-      "Name":"LED_Street_Lights",
+      "Name":"Decorative_Columns",
     },
     {
       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (11).webp",
-      "Name":"LED_Street_Lights",
+      "Name":"Decorative_Columns",
     },
     {
       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (12).webp",
-      "Name":"LED_Street_Lights",
+      "Name":"Decorative_Columns",
     },
     {
       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (13).webp",
-      "Name":"LED_Street_Lights",
+      "Name":"Decorative_Columns",
     },
     {
       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (14).webp",
-      "Name":"LED_Street_Lights",
+      "Name":"Decorative_Columns",
     },
     {
       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (15).webp",
-      "Name":"LED_Street_Lights",
+      "Name":"Decorative_Columns",
     },
     {
       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (16).webp",
-      "Name":"LED_Street_Lights",
+      "Name":"Decorative_Columns",
     },
     {
       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (17).webp",
-      "Name":"LED_Street_Lights",
+      "Name":"Decorative_Columns",
     },
     {
       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (18).webp",
-      "Name":"LED_Street_Lights",
+      "Name":"Decorative_Columns",
     },
     {
       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (19).webp",
-      "Name":"LED_Street_Lights",
+      "Name":"Decorative_Columns",
     },
     {
-      "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (20).webp",
-      "Name":"LED_Street_Lights",
+      "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights .webp",
+      "Name":"Decorative_Columns",
     },
     {
       "imageUrl": "../AssertsAll/Straight_Line_Poles/Straight Line Poles (1).webp",

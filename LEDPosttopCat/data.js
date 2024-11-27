@@ -175,6 +175,54 @@ const data1 = [
     "imageUrl": "../AssertsAll/Pillar_Pole_Mounting_Series/Pillar_Pole Mounting Series (20).webp",
     "Name":"Piller_Pole_Mounting",
   },  
+  {
+    "imageUrl": "../AssertsAll/Street Lights/LED Street Lights/LED Street Lights (1).png",
+    "Name":"LED_Street_Lights",
+  },
+  {
+    "imageUrl": "../AssertsAll/Street Lights/LED Street Lights/LED Street Lights (2).png",
+    "Name":"LED_Street_Lights",
+  },
+  {
+    "imageUrl": "../AssertsAll/Street Lights/LED Street Lights/LED Street Lights (3).png",
+    "Name":"LED_Street_Lights",
+  },
+  {
+    "imageUrl": "../AssertsAll/Street Lights/LED Street Lights/LED Street Lights (4).png",
+    "Name":"LED_Street_Lights",
+  },
+  {
+    "imageUrl": "../AssertsAll/Street Lights/LED Street Lights/LED Street Lights (5).png",
+    "Name":"LED_Street_Lights",
+  },
+  {
+    "imageUrl": "../AssertsAll/Street Lights/LED Street Lights/LED Street Lights (6).png",
+    "Name":"LED_Street_Lights",
+  },
+  {
+    "imageUrl": "../AssertsAll/Street Lights/LED Street Lights/LED Street Lights (7).png",
+    "Name":"LED_Street_Lights",
+  },
+  {
+    "imageUrl": "../AssertsAll/Street Lights/LED Street Lights/LED Street Lights (8).png",
+    "Name":"LED_Street_Lights",
+  },
+  {
+    "imageUrl": "../AssertsAll/Street Lights/LED Street Lights/LED Street Lights (9).png",
+    "Name":"LED_Street_Lights",
+  },
+  {
+    "imageUrl": "../AssertsAll/Street Lights/LED Street Lights/LED Street Lights (10).png",
+    "Name":"LED_Street_Lights",
+  },
+  {
+    "imageUrl": "../AssertsAll/Street Lights/LED Street Lights/LED Street Lights (11).png",
+    "Name":"LED_Street_Lights",
+  },
+  {
+    "imageUrl": "../AssertsAll/Street Lights/LED Street Lights/LED Street Lights (12).png",
+    "Name":"LED_Street_Lights",
+  },
 ]
 
 

@@ -161,15 +161,22 @@ nav {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
 }
-
 /* Product Section */
+#center_hero{
+    height: 170vh;
+}
 #polls_bollards {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 70px;
-    padding-top: 45px;
+    padding-top: 15px;
     height: 81vh;
+}
+#bollards_img a,
+#polls_img a , #LEDPostTop_img a , #LEDDropDown_img a {
+    text-decoration: none;
 }
 #polls_img, #bollards_img , #LEDPostTop_img , #LEDDropDown_img {
     width: 35%;
@@ -178,17 +185,13 @@ nav {
     position: relative;
     overflow: hidden;
 }
-#polls_img img, #bollards_img img , #LEDPostTop_img img , #LEDDropDown_img img{
+
+#polls_img img, #bollards_img img , #LEDPostTop_img img, #LEDDropDown_img img{ 
     width: 100%;
     height: 60vh;
     transition: transform 0.3s ease-in;
 }
-#polls_img  a ,  #LEDPostTop_img a{
-    text-decoration: none;
-}
-#bollards_img a , #LEDDropDown_img a {
-    text-decoration: none;
-}
+
 #polls_img img:hover{
     content: url('../AssertsAll/decor.poles/light_poles.webp'); /* Change image on hover */
 }
@@ -202,7 +205,6 @@ nav {
 #LEDDropDown_img img:hover{
     content: url('../AssertsAll/leddropdown/light_LED\ Drop\ Down.webp'); /* Change image on hover */
 }
-/* LEDDropDown_img */
 .hover-text {
     display: inline;
     justify-content: center;
@@ -213,28 +215,13 @@ nav {
     font-weight: 500;
     text-transform: capitalize;
 }
-#nav-part2 h1:hover a{
-    background: linear-gradient(to right, #f9f295, #e0aa3e, #e0aa3e, #B88A44);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-#polls_bollards {
-    gap: 20px;
-    padding-left: 20px;
-    display: flex;
-    justify-content: center;
-    padding: auto;
-    padding-right: 20px;
-    align-items: center;
-}
+/* Footer */
 footer {
     position: relative;
     background-color: #111;
     color: #fff;
     padding: 40px 0;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
 }
 
 footer::before {
@@ -243,71 +230,59 @@ footer::before {
     top: 0;
     left: 0;
     right: 0;
-    height: 4px; /* This will be the height of the "border" */
-    background: linear-gradient(to right, #f9f295, #e0aa3e, #e0aa3e, #b88a44); /* Gradient for the border */
+    height: 4px;
+    background: linear-gradient(to right, #f9f295, #e0aa3e, #b88a44);
 }
 
 .footer-container {
     max-width: 1200px;
     margin: 0 auto;
 }
-
-.footer-logo,
+/* .footer-logo,.footer-links{
+    display: flex;
+    justify-content: space-evenly;
+} */
+.footer-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .footer-links {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .footer-logo {
     flex-basis: 25%;
-    text-align: left;
     height: 110px;
     width: 250px;
-    object-fit: cover;
-}
-#footerlogo{
-    height: 80px;
-    width: 60%;
-    object-fit: cover;
-}
-#logo_img{
-    height: 110px;
-    width: 250px;
-    object-fit: cover;
-}
-.footer-logo h2 {
-    font-size: 24px;
-    font-weight: bold;
-    letter-spacing: 1px;
 }
 
-.footer-logo p {
-    font-size: 14px;
-    color: #ccc;
-    margin-top: 5px;
+#footerlogo {
+    width: 60%;
+    height: 80px;
+    object-fit: cover;
 }
 
 .footer-links {
-    flex-basis: 70%;
+    /* flex-basis: 70%; */
     display: flex;
     justify-content: space-between;
 }
 
 .footer-links ul {
     list-style: none;
-    padding: 0;
 }
 
 .footer-links ul li {
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
-.footer-links ul li a {
+.footer-links ul li a { 
     color: #fff;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .footer-links ul li a:hover {
@@ -318,9 +293,7 @@ footer::before {
     width: 100%;
     padding: 1px;
     margin: 30px 0;
-    background: linear-gradient(to right, #f9f295, #e0aa3e, #e0aa3e, #b88a44); /* Gradient for the border */
-    /* border: 0px solid transparent; Transparent border to maintain spacing */
-
+    background: linear-gradient(to right, #f9f295, #e0aa3e, #b88a44);
 }
 
 .footer-socials {
@@ -328,51 +301,38 @@ footer::before {
     justify-content: center;
     margin-bottom: 20px;
 }
-.footer-socials img{
-    border: 1px solid #e0aa3e;
-    border-radius: 50%;
-    width: 50px;
+#footer-lion{
+    width: 75px;
     height: 50px;
-    margin: 10px;
 }
-/* .footer-socials a {
-    color: #fff;
-    width: 20px;
-    height: 20px;
-    margin: 2px 9px;
-    padding-right: 50px;
-    text-decoration: none;
-    gap: 10px;
-} */
-
-.footer-socials a:hover {
-    color: #aaa;
+.footer-socials img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 50px;
+    margin: 10px 10px;
 }
 
 .footer-copyright {
     text-align: center;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #ccc;
     margin-top: 10px;
 }
 
-
-
-/* =============================================Responsive=================================== */
-
-
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
+    #product_heading {
+        font-size: 2vh;
+    }
     #polls_bollards {
         padding: 30px;
         flex-direction: column;
         gap: 20px;
     }
+
     #polls_img, #bollards_img {
-        width: 70%;
-        height: auto;
-    }
-    #LEDPostTop_img, #LEDDropDown_img{
         width: 70%;
         height: auto;
     }
@@ -402,29 +362,19 @@ footer::before {
     }
     #polls_bollards{
         margin-top: -30px;
-        height: 600px;
+        height: 565px;
         width: 100%;
     }
     #polls_img, #bollards_img {
         width: 100%;
-        height: 60vh;
-    }
-    #LEDPostTop_img, #LEDDropDown_img{
-        width: 100%;
-        height: 60vh;
+        height: 40vh;
         position: relative;
         overflow: hidden;
     }
     #polls_img img, #bollards_img img {
         width: 100%;
-        height: 60vh;
+        height: 40vh;
         transition: transform 0.3s ease-in;
-    }
-    #LEDPostTop_img, #LEDDropDown_img{
-        width: 100%;
-        height: 60vh;
-        transition: transform 0.3s ease-in;
-
     }
     .hover-text {
         position: absolute;
@@ -435,22 +385,16 @@ footer::before {
     }
     #polls_img img:hover {
         content: url('../AssertsAll/poles/light_Poles.webp');
-        object-fit: cover;
+    }
+    #polls_img img:hover {
+        content: url('../AssertsAll/poles/light_Poles.webp');
     }
     
     #bollards_img img:hover {
-        content: url('../AssertsAll/garden_lights/light_garden\ lights.webp');
-        object-fit: cover;
+        content: url('../AssertsAll/garden_lights/light_garden\ lights.webpg');
+    }
 
-    }
-    #LEDPostTop_img img:hover{
-        content: url('../AssertsAll/ledposttop/light_LED\ Post\ top.webp'); /* Change image on hover */
-        object-fit: cover;
-    }
-    #LEDDropDown_img img:hover{
-        content: url('../AssertsAll/leddropdown/light_LED\ Drop\ Down.webp');
-        object-fit: cover;
-    }
+
     footer {
         padding: 20px 0;
     }
