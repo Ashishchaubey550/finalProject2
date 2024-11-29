@@ -34,7 +34,7 @@ body.loading #main {
     justify-content: center;
 }
 #preloader h1{
-    font-size: 3vw;
+    font-size: 2.3vw;
     color: transparent;
     background: whitesmoke;
     -webkit-background-clip: text;
@@ -85,7 +85,7 @@ a{
     /* background-color: transparent; */
     color: whitesmoke;
     font-size: 1vw;
-    bottom: 0;
+    bottom: 30px;
     margin-bottom: 8px;
     margin-left: 46%;
     text-transform: uppercase;

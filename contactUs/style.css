@@ -190,6 +190,7 @@ html, body {
 }
 #calling a , #address a{
     text-decoration: none;
+    font-size: 1.5vw;
 }
 #mailing{
     display: flex;
@@ -231,7 +232,13 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1vw;
+    font-size: 0.9vw;
+    font-style: normal;
+    line-height: 0.8;
+}
+#QRscanner h1{
+    margin-top: 15px;
+    font-weight: 500;
 }
 #QRscanner img {
     height: 50%;  /* Make height equal to width to maintain a square shape */

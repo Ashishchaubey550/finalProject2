@@ -184,7 +184,7 @@ const data1 = [
       "Name":"Decorative_Columns",
     },
     {
-      "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights .webp",
+      "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (20).webp",
       "Name":"Decorative_Columns",
     },
     {
@@ -316,6 +316,10 @@ const data1 = [
       "Name":"Cast_Iron/Aluminium_poles",
     },
     {
+      "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (1).webp",
+      "Name":"Decorative_Columns",
+    },
+    {
       "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (2).webp",
       "Name":"Decorative_Columns",
     },
@@ -357,10 +361,6 @@ const data1 = [
     },
     {
       "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (12).webp",
-      "Name":"Decorative_Columns",
-    },
-    {
-      "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (13).webp",
       "Name":"Decorative_Columns",
     },
     {
@@ -441,10 +441,6 @@ const data1 = [
     },
     {
       "imageUrl": "../AssertsAll/Decorative_Poles/Decorative Poles (20).webp",
-      "Name":"Decorative_Poles",
-    },
-    {
-      "imageUrl": "../AssertsAll/Decorative_Poles/Decorative Poles (21).webp",
       "Name":"Decorative_Poles",
     },
   ]
