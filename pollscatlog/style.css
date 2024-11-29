@@ -446,9 +446,25 @@ footer::before {
     margin-bottom: 20px;
     
 }
+#footer-bharat{
+    width: 75px;
+    height: 60px;
+}
+#footer-bacho{
+    width: 75px;
+    height: 60px;
+}
+#footer-earth{
+    width: 70px;
+    height: 60px;
+}
 #footer-lion{
     width: 75px;
-    height: 50px;
+    height: 60px;
+}
+#footer-city{
+    width: 75px;
+    height: 60px;
 }
 .footer-socials img {
     background-color: #111;

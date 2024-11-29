@@ -36,9 +36,10 @@ const data1 = [
       "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 9.webp",
       "Name":"Cast_Aluminium_Poles",
     },
-    {
-      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 10.webp",
-    },
+    // {
+    //   "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 10.webp",
+    //   "Name":"Cast_Aluminium_Poles",
+    // },
     {
       "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 11.webp",
       "Name":"Cast_Aluminium_Poles",
@@ -107,86 +108,86 @@ const data1 = [
       "imageUrl": "../AssertsAll/Steel_Poles/Steel Poles (12).webp",
       "Name":"Steel_Poles",
     },
-    {
-      "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (1).webp",
-      "Name":"Decorative_Columns",
-    },
-    {
-      "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (2).webp",
-      "Name":"Decorative_Columns",
-    },
-    {
-      "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (3).webp",
-      "Name":"Decorative_Columns",
-    },
-    {
-      "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (4).webp",
-      "Name":"Decorative_Columns",
-    },
-    {
-      "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (5).webp",
-      "Name":"Decorative_Columns",
-    },
-    {
-      "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (6).webp",
-      "Name":"Decorative_Columns",
-    },
-    {
-      "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (7).webp",
-      "Name":"Decorative_Columns",
-    },
-    {
-      "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (8).webp",
-      "Name":"Decorative_Columns",
-    },
-    {
-      "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (9).webp",
-      "Name":"Decorative_Columns",
-    },
-    {
-      "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (10).webp",
-      "Name":"Decorative_Columns",
-    },
-    {
-      "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (11).webp",
-      "Name":"Decorative_Columns",
-    },
-    {
-      "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (12).webp",
-      "Name":"Decorative_Columns",
-    },
-    {
-      "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (13).webp",
-      "Name":"Decorative_Columns",
-    },
-    {
-      "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (14).webp",
-      "Name":"Decorative_Columns",
-    },
-    {
-      "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (15).webp",
-      "Name":"Decorative_Columns",
-    },
-    {
-      "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (16).webp",
-      "Name":"Decorative_Columns",
-    },
-    {
-      "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (17).webp",
-      "Name":"Decorative_Columns",
-    },
-    {
-      "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (18).webp",
-      "Name":"Decorative_Columns",
-    },
-    {
-      "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (19).webp",
-      "Name":"Decorative_Columns",
-    },
-    {
-      "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (20).webp",
-      "Name":"Decorative_Columns",
-    },
+     {
+       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (1).webp",
+       "Name":"Decorative_Columns",
+     },
+     {
+       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (2).webp",
+       "Name":"Decorative_Columns",
+     },
+     {
+       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (3).webp",
+       "Name":"Decorative_Columns",
+     },
+     {
+       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (4).webp",
+       "Name":"Decorative_Columns",
+     },
+     {
+       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (5).webp",
+       "Name":"Decorative_Columns",
+     },
+     {
+       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (6).webp",
+       "Name":"Decorative_Columns",
+     },
+     {
+       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (7).webp",
+       "Name":"Decorative_Columns",
+     },
+     {
+       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (8).webp",
+       "Name":"Decorative_Columns",
+     },
+     {
+       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (9).webp",
+       "Name":"Decorative_Columns",
+     },
+     {
+       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (10).webp",
+       "Name":"Decorative_Columns",
+     },
+     {
+       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (11).webp",
+       "Name":"Decorative_Columns",
+     },
+     {
+       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (12).webp",
+       "Name":"Decorative_Columns",
+     },
+     {
+       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (13).webp",
+       "Name":"Decorative_Columns",
+     },
+     {
+       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (14).webp",
+       "Name":"Decorative_Columns",
+     },
+     {
+       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (15).webp",
+       "Name":"Decorative_Columns",
+     },
+     {
+       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (16).webp",
+       "Name":"Decorative_Columns",
+     },
+     {
+       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (17).webp",
+       "Name":"Decorative_Columns",
+     },
+     {
+       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (18).webp",
+       "Name":"Decorative_Columns",
+     },
+     {
+       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (19).webp",
+       "Name":"Decorative_Columns",
+     },
+     {
+       "imageUrl": "../AssertsAll/LED_Street_Lights/LED Street Lights (20).webp",
+       "Name":"Decorative_Columns",
+     },
     {
       "imageUrl": "../AssertsAll/Straight_Line_Poles/Straight Line Poles (1).webp",
       "Name":"Straight_Line_Poles",
@@ -288,10 +289,6 @@ const data1 = [
       "Name":"Cast_Iron/Aluminium_poles",
     },
     {
-      "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 10.webp",
-      "Name":"Cast_Iron/Aluminium_poles",
-    },
-    {
       "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 11.webp",
       "Name":"Cast_Iron/Aluminium_poles",
     },
@@ -315,10 +312,10 @@ const data1 = [
       "imageUrl": "../AssertsAll/Cast_Aluminium_Poles/Cast Aluminium Poles/Cast Aluminium Poles 16.webp",
       "Name":"Cast_Iron/Aluminium_poles",
     },
-    {
-      "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (1).webp",
-      "Name":"Decorative_Columns",
-    },
+    //  {
+    //    "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (1).webp",
+    //    "Name":"Decorative_Columns",
+    //  },
     {
       "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (2).webp",
       "Name":"Decorative_Columns",
@@ -331,38 +328,38 @@ const data1 = [
       "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (4).webp",
       "Name":"Decorative_Columns",
     },
-    {
-      "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (5).webp",
-      "Name":"Decorative_Columns",
-    },
-    {
-      "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (6).webp",
-      "Name":"Decorative_Columns",
-    },
-    {
-      "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (7).webp",
-      "Name":"Decorative_Columns",
-    },
-    {
-      "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (8).webp",
-      "Name":"Decorative_Columns",
-    },
-    {
-      "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (9).webp",
-      "Name":"Decorative_Columns",
-    },
-    {
-      "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (10).webp",
-      "Name":"Decorative_Columns",
-    },
-    {
-      "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (11).webp",
-      "Name":"Decorative_Columns",
-    },
-    {
-      "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (12).webp",
-      "Name":"Decorative_Columns",
-    },
+     {
+       "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (5).webp",
+       "Name":"Decorative_Columns",
+     },
+     {
+       "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (6).webp",
+       "Name":"Decorative_Columns",
+     },
+     {
+       "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (7).webp",
+       "Name":"Decorative_Columns",
+     },
+     {
+       "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (8).webp",
+       "Name":"Decorative_Columns",
+     },
+     {
+       "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (9).webp",
+       "Name":"Decorative_Columns",
+     },
+     {
+       "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (10).webp",
+       "Name":"Decorative_Columns",
+     },
+     {
+       "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (11).webp",
+       "Name":"Decorative_Columns",
+     },
+     {
+       "imageUrl": "../AssertsAll/Decorative_Column_Lights/Decorative Column Lights (12).webp",
+       "Name":"Decorative_Columns",
+     },
     {
       "imageUrl": "../AssertsAll/Decorative_Poles/Decorative Poles (1).webp",
       "Name":"Decorative_Poles",
