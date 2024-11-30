@@ -212,6 +212,7 @@ html, body {
     padding-right: 60px;
     margin-left: -50px;
     gap: 10px;
+    font-weight: 400;
 }
 #heading2 h2{
     color: #032A25;
