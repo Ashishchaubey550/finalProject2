@@ -385,7 +385,7 @@ footer::before {
         text-align: center; /* Adjust as needed */
         font-size: 3vh; /* Ensure it’s visible and sized appropriately */
     }
-}
+} 
 @media (max-width: 480px) {
     #product_heading {
         font-size: 3vh;
@@ -399,25 +399,25 @@ footer::before {
         width: 100%;
     }
     #polls_img, #bollards_img {
-        width: 100vw;
+        width: 95vw;
         height: 100%;
         position: relative;
         overflow: hidden;
     }
     #polls_img img, #bollards_img img {
-        width: 100vw;
-        height: 110%;
+        width: 95vw;
+        height: 150%;
         transition: transform 0.3s ease-in;
     }
     #LEDPostTop_img , #LEDDropDown_img{
-        width: 100vw;
+        width: 95vw;
         height: 100%;
         position: relative;
         overflow: hidden;
     }
     #LEDPostTop_img img , #LEDDropDown_img img{
-        width: 100vw;
-        height: 110%;
+        width: 95vw;
+        height: 150%;
         transition: transform 0.3s ease-in;
     }
     .hover-text {

@@ -209,10 +209,8 @@ html, body {
     font-family: "Poppins", sans-serif;
     display: flex;
     flex-direction: row;
-    padding-right: 60px;
-    margin-left: -50px;
+    margin-left: -160px;
     gap: 10px;
-    font-weight: 400;
 }
 #heading2 h2{
     color: #032A25;
@@ -505,6 +503,7 @@ footer-logo {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    align-items: center;
 }
 #footer-bharat{
     background-color: white;
@@ -513,19 +512,22 @@ footer-logo {
 }
 #footer-bacho{
     width: 75px;
-    height: 60px;
+    height: 75px;
 }
 #footer-earth{
     width: 70px;
-    height: 60px;
+    height: 70px;
 }
 #footer-lion{
     width: 75px;
-    height: 60px;
+    height: 75px;
 }
 #footer-city{
     width: 75px;
-    height: 60px;
+    height: 75px;
+    background-color: white;
+    color: #111;
+
 }
 .footer-socials img {
     background-color: #111;
