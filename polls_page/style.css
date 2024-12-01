@@ -367,24 +367,7 @@ footer::before {
         padding-left: 10px;
         padding-right: 15px;
     }
-    #footer-logo {
-        width: 70%;
-        height: auto;
-    }
 
-    .footer-links {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footer-links ul {
-        text-align: center;
-    }
-    .hover-text {
-        display: block; /* or inline-block, if needed */
-        text-align: center; /* Adjust as needed */
-        font-size: 3vh; /* Ensure it’s visible and sized appropriately */
-    }
 } 
 @media (max-width: 480px) {
     #product_heading {
@@ -440,18 +423,25 @@ footer::before {
     #LEDDropDown_img img:hover{
         content: url('../AssertsAll/leddropdown/light_LED\ Drop\ Down.webp'); /* Change image on hover */
     }
-
-    footer {
-        padding: 20px 0;
+    .footer-links {
+        display: block; /* Enables flex layout for easy alignment */
+        justify-content: start; /* Centers the logo */
     }
-
-    .footer-links ul li {
-        margin: 5px 0;
+    
+    .footer-links a {
+        display: none; /* Hides all anchor links */
     }
-
-    .footer-socials img {
-        width: 40px;
-        height: 40px;
+    .footer-links #contacthai{
+        display: block;
+        background-color: red;
+    }
+    .footer-logo {
+        width: 70%; 
+        text-align: center; /* Center the logo content */
+    }
+    .footer-logo img{
+        height: 100%;
+        width: 100%;
     }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -482,29 +472,5 @@ footer::before {
         width: 45%;
         height: auto;
     }
-    footer {
-        padding: 30px 0;
-    }
 
-    .footer-logo {
-        width: 60%;
-    }
-
-    .footer-links {
-        flex-direction: row;
-        gap: 20px;
-    }
-
-    .footer-links ul {
-        text-align: center;
-    }
-
-    .footer-links ul li {
-        margin: 5px 0;
-    }
-
-    .footer-socials img {
-        width: 45px;
-        height: 45px;
-    }
 }
