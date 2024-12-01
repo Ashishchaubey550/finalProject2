@@ -211,6 +211,8 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+
     box-sizing: border-box;
 }
 #main{
@@ -502,3 +504,137 @@ footer-logo {
 }
 
 
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    #product_heading {
+        font-size: 2vh;
+    }
+    #center_hero{
+        height: 90vh;
+    }
+    #polls_bollards {
+        flex-wrap: nowrap;
+        padding: 30px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #polls_img, #bollards_img {
+        width: 70%;
+        height: auto;
+        padding-left: 10px;
+        padding-right: 15px;
+    }
+    #LEDPostTop_img , #LEDDropDown_img{
+        width: 70%;
+        height: auto;
+        padding-left: 10px;
+        padding-right: 15px;
+    }
+
+} 
+@media (max-width: 480px) {
+    #product_heading {
+        font-size: 3vh;
+    }
+    #center_hero{
+        height: 90vh;
+    }
+    #polls_bollards{
+        margin-top: -30px;
+        height: 100%;
+        width: 100%;
+    }
+    #polls_img, #bollards_img {
+        width: 95vw;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    #polls_img img, #bollards_img img {
+        width: 95vw;
+        height: 150%;
+        transition: transform 0.3s ease-in;
+    }
+    #LEDPostTop_img , #LEDDropDown_img{
+        width: 95vw;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    #LEDPostTop_img img , #LEDDropDown_img img{
+        width: 95vw;
+        height: 150%;
+        transition: transform 0.3s ease-in;
+    }
+    .hover-text {
+        position: absolute;
+        bottom: 0;
+        font-size: 6vw;
+        color: whitesmoke;
+
+    }
+    #polls_img img:hover{
+        content: url('../AssertsAll/decor.poles/light_poles.webp'); /* Change image on hover */
+    }
+    
+    #bollards_img img:hover{
+        content: url('../AssertsAll/brackets/light_brackets.webp'); /* Change image on hover */
+    }
+    #LEDPostTop_img img:hover{
+        content: url('../AssertsAll/ledposttop/light_LED\ Post\ top.webp'); /* Change image on hover */
+    }
+    #LEDDropDown_img img:hover{
+        content: url('../AssertsAll/leddropdown/light_LED\ Drop\ Down.webp'); /* Change image on hover */
+    }
+    .footer-links {
+        display: block; /* Enables flex layout for easy alignment */
+        justify-content: start; /* Centers the logo */
+    }
+    
+    .footer-links a {
+        display: none; /* Hides all anchor links */
+    }
+    .footer-links #contacthai{
+        display: block;
+        background-color: red;
+    }
+    .footer-logo {
+        width: 70%; 
+        text-align: center; /* Center the logo content */
+    }
+    .footer-logo img{
+        height: 100%;
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    #product_heading {
+        font-size: 4.5vh;
+    }
+
+    nav {
+        padding: 1.5vw;
+        flex-direction: row;
+        height: auto;
+    }
+
+    #nav-part2 h1 {
+        font-size: 0.9rem;
+    }
+
+    #polls_bollards {
+        gap: 40px;
+        flex-direction: row;
+    }
+
+    #polls_img, #bollards_img {
+        width: 45%;
+        height: auto;
+    }
+    #LEDPostTop_img , #LEDDropDown_img{
+        width: 45%;
+        height: auto;
+    }
+
+}
