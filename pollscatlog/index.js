@@ -114,8 +114,42 @@ showSlide(currentSlide);
 
 
 
+// GO to top
 
+document.getElementById('gototop').addEventListener('click', function() {
+  const topNav = document.getElementById('top');
+  topNav.scrollIntoView({
+    behavior: 'smooth',  // Smooth scroll
+    block: 'start'       // Align at the top of the screen
+  });
+});
+document.addEventListener('DOMContentLoaded', function () {
+    let menuList = document.getElementById('nav-part2');
+    menuList.style.maxHeight = "0px"; // Start with the menu collapsed
+  
+    function toggleMenu(){
+      if (menuList.style.maxHeight === "0px") {
+        menuList.style.maxHeight = "300px"; // Expand the menu
+      } else {
+        menuList.style.maxHeight = "0px"; // Collapse the menu
+      }
+    }
+  
+    // Assign the toggleMenu function to the click event of the menu icon
+    document.querySelector('.menu-icon i').addEventListener('click', toggleMenu);
+  });
+  
 
+// let menuList = document.getElementById('nav-part2');
+// menuList.style.maxHeight = "0px"; // Start with the menu collapsed
+
+// function toggleMenu(){
+//   if (menuList.style.maxHeight === "0px") {
+//     menuList.style.maxHeight = "300px"; // Expand the menu
+//   } else {
+//     menuList.style.maxHeight = "0px"; // Collapse the menu
+//   }
+// }
 
 
 

@@ -41,5 +41,9 @@ function toggleMenu() {
 // GO to top
 
 document.getElementById('gototop').addEventListener('click', function() {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
+  const topNav = document.getElementById('top');
+  topNav.scrollIntoView({
+    behavior: 'smooth',  // Smooth scroll
+    block: 'start'       // Align at the top of the screen
+  });
 });
