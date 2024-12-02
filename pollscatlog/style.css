@@ -569,7 +569,14 @@ footer::before {
         color: transparent; /* Make the text transparent so that the background shows through */
         text-decoration: none; /* Remove underline */
     }
-    
+    #hero-content{
+        height: 30%;
+        width: 100%;
+    }
+    .slide{
+        height: fit-content;
+        width: fit-content;
+    }
     /* #nav-part2 h1:nth-child(1){
         top: 50%    ;
         gap: 50px;
