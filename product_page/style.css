@@ -73,7 +73,8 @@ html, body {
     background: linear-gradient(to right, #f9f295, #e0aa3e, #b88a44); /* Gradient background */
     -webkit-background-clip: text; /* Clip the background to the text */
     color: transparent; /* Make the text transparent so that the background shows through */
-    text-decoration: none; /* Remove underline */    font-size: 30px;
+    text-decoration: none; /* Remove underline */ 
+    font-size: 40px;
     display: none;
 }
 .menu-icon{
@@ -399,7 +400,7 @@ footer::before {
         font-size: 3vh; 
     }
 } 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     #logo_img{
         height: 110px;
         width: 180px;

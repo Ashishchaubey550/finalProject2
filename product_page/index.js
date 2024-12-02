@@ -38,3 +38,8 @@ function toggleMenu() {
     menuList.style.maxHeight = "0px"; // Collapse the menu
   }
 }
+// GO to top
+
+document.getElementById('gototop').addEventListener('click', function() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
