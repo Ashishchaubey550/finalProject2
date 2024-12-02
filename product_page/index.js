@@ -13,3 +13,28 @@ gsap.from("#product_heading",{
 // setTimeout(function() {
 //     loader.style.top = "-100%"
 // },3500)
+
+
+// responsive navbar
+
+// let menuList = document.getElementById('nav-part2'); // Removed '#'
+// menuList.style.maxHeight = "0px"; // Start with the menu collapsed
+
+// function menu_button() {
+//   if (menuList.style.maxHeight === "0px") {
+//     menuList.style.maxHeight = "300px"; // Expand menu
+//   } else {
+//     menuList.style.maxHeight = "0px"; // Collapse menu
+//   }
+// }
+
+let menuList = document.getElementById('nav-part2');
+menuList.style.maxHeight = "0px"; // Start with the menu collapsed
+
+function toggleMenu() {
+  if (menuList.style.maxHeight === "0px") {
+    menuList.style.maxHeight = "300px"; // Expand the menu
+  } else {
+    menuList.style.maxHeight = "0px"; // Collapse the menu
+  }
+}
