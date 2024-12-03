@@ -436,7 +436,7 @@ footer::before {
         width: 100%;
     }
     #polls_img, #bollards_img {
-        width: 85%;
+        width: 80%;
         height: 100%;
         position: relative;
         overflow: hidden;
@@ -447,7 +447,7 @@ footer::before {
         transition: transform 0.3s ease-in;
     }
     #LEDPostTop_img , #LEDDropDown_img{
-        width: 85%;
+        width: 80%;
         height: 100%;
         position: relative;
         overflow: hidden;
