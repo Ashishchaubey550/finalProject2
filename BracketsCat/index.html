@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BracketsCat</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="main">
         <div id="herosection">
-            <nav>
+            <nav id="top">
                 <a href="../index.html">
-                    <img src="../AssertsAll/32.webp" id="logo_img" class="lazyload" alt="Logo">
+                    <img src="../AssertsAll/32-optimized.webp" id="logo_img" class="lazyload" alt="Logo">
                 </a>
                 <div id="nav-part2">
                     <h1><a href="../index.html">Home</a></h1>
             
-                    <!-- Dropdown for Our Products -->
+                    <!-- Dropdown for Products -->
                     <div class="dropdown">
                         <h1><a href="../product_page/index.html">Our Products</a></h1>
                         <div class="dropdown-content">
@@ -41,10 +42,13 @@
                         </div>
                     </div>
             
-                    <!-- <h1><a href="../AboutUs/index.html">About Us</a></h1> -->
+                    <!-- <h1><a href="../AboutUs/index.html" class="active">About Us</a></h1> -->
                     <h1><a href="../contactUs/index.html">Get In Touch</a></h1>
                 </div>
-            </nav>
+                <div class="menu-icon">
+                    <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+                </div>
+            </nav>  
             <div id="hero-content">
                 <div class="slide active">
                     <img src="../AssertsAll/Wall_Mounting_Brackets_1.webp" class="lazyload" alt="Decorative Poles Background 1">
@@ -70,36 +74,39 @@
                 <div class="footer-container">
                     <!-- Footer Navigation Links -->
                     <div class="footer-links">
-                        <!-- Logo and Slogan -->
-         <div class="footer-logo">
-            <img src="../AssertsAll/33.webp" id="footerlogo" class="lazyload" alt="">
-         </div>
-        <ul>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="../product_page/index.html">Our Products</a></li>
-            <!-- <li><a href="../AboutUs/index.html">About Us</a></li> -->
-            <li><a href="../contactUs/index.html">Get In Touch</a></li>
-        </ul>
-        <ul>
-            <li><a href="../pollscatlog/index.html">Poles</a></li>
-            <li><a href="../LEDPosttopCat/index.html">LED Post top</a></li>
-            <li><a href="../LEDDropDown/index.html">LED Drop Down</a></li>
-            <li><a href="../BracketsCat/index.html">Brackets</a></li>
-        </ul>
-        <ul>
-            <li><a href="../BollardsCat.html/index.html">Bollards</a></li>
-            <li><a href="../FootLightCat/index.html">Foot Lights</a></li>
-        </ul>
-        <ul>
-        <!-- <li><a href="#">Get In Touch</a></li> -->
-        <li><a href="mailto:office.sparkluminaries@gmail.com">office.sparkluminaries@gmail.com</a></li>
-        <li><a href="tel:+9101204152898">+91-0120-4152898</a></li>
-        <li><a href="tel:+919971676366">+91-9971676366</a></li>
-        </ul>
-    </div>
+                                        <!-- Logo and Slogan -->
+                         <div class="footer-logo">
+                            <img src="../AssertsAll/33.webp" id="footerlogo" class="lazyload" alt="">
+                            <button id="gototop">GO TO TOP</button>
+                        </div>
+                        <ul>
+                            <li><a href="/index.html">Home</a></li>
+                            <li><a href="../product_page/index.html">Our Products</a></li>
+                            <!-- <li><a href="../AboutUs/index.html">About Us</a></li> -->
+                            <li><a href="../contactUs/index.html">Get In Touch</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="../pollscatlog/index.html">Poles</a></li>
+                            <li><a href="../LEDPosttopCat/index.html">LED Post top</a></li>
+                            <li><a href="../LEDDropDown/index.html">LED Drop Down</a></li>
+                            <li><a href="../BracketsCat/index.html">Brackets</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="../BollardsCat.html/index.html">Bollards</a></li>
+                            <li><a href="../FootLightCat/index.html">Foot Lights</a></li>
+                        </ul>
+                        <ul id="contacthai">
+                        <!-- <li><a href="#">Get In Touch</a></li> -->
+                        <li><a href="mailto:office.sparkluminaries@gmail.com">office.sparkluminaries@gmail.com</a></li>
+                        <li><a href="tel:+9101204152898">+91-0120-4152898</a></li>
+                        <li><a href="tel:+919971676366">+91-9971676366</a></li>
+                        </ul>
+                    </div>
+            
                     <!-- Divider Line -->
-                     <div class="footer-divider"></div>
+                    <div class="footer-divider"></div>
                     <!-- <hr class="footer-divider"> -->
+            
                     <!-- Social Media Links -->
                     <div class="footer-socials">
                         <img src="../AssertsAll/made_india.webp" id="footer-lion"  class="lazyload" alt="" srcset="" position="center">
@@ -108,12 +115,13 @@
                         <img src="../AssertsAll/swach_bharat.webp" position="center" id="footer-bharat" class="lazyload" alt="" srcset="">
                         <img src="../AssertsAll/beti_bacho.webp" position="center" id="footer-bacho" class="lazyload" alt="" srcset="">
                     </div>
+            
                     <!-- Copyright Section -->
                     <div class="footer-copyright">
                         <!-- <p>©Copyright. All rights reserved.</p> -->
                     </div>
                 </div>
-            </footer>          
+            </footer>         
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

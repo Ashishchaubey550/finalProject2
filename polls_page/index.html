@@ -6,11 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Polls_page</title>
     <link rel="icon" href="/Asserts/favicon-White.webp" type="image/png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
-    rel="stylesheet"
-    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -21,7 +17,7 @@
     </div> -->
     <div id="main" >
         <div id="herosection">
-            <nav>
+            <nav id="top">
                 <a href="../index.html">
                     <img src="../AssertsAll/32-optimized.webp" id="logo_img" class="lazyload" alt="Logo">
                 </a>
@@ -54,6 +50,9 @@
             
                     <!-- <h1><a href="../AboutUs/index.html" class="active">About Us</a></h1> -->
                     <h1><a href="../contactUs/index.html">Get In Touch</a></h1>
+                </div>
+                <div class="menu-icon">
+                    <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
                 </div>
             </nav>  
             <div id="center_hero">
@@ -88,14 +87,13 @@
             </div>
             <footer>
                 <div class="footer-container">
-    
-            
                     <!-- Footer Navigation Links -->
                     <div class="footer-links">
                                         <!-- Logo and Slogan -->
                          <div class="footer-logo">
                             <img src="../AssertsAll/33.webp" id="footerlogo" class="lazyload" alt="">
-                         </div>
+                            <button id="gototop">GO TO TOP</button>
+                        </div>
                         <ul>
                             <li><a href="/index.html">Home</a></li>
                             <li><a href="../product_page/index.html">Our Products</a></li>
@@ -112,7 +110,7 @@
                             <li><a href="../BollardsCat.html/index.html">Bollards</a></li>
                             <li><a href="../FootLightCat/index.html">Foot Lights</a></li>
                         </ul>
-                        <ul>
+                        <ul id="contacthai">
                         <!-- <li><a href="#">Get In Touch</a></li> -->
                         <li><a href="mailto:office.sparkluminaries@gmail.com">office.sparkluminaries@gmail.com</a></li>
                         <li><a href="tel:+9101204152898">+91-0120-4152898</a></li>

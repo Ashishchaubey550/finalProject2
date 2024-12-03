@@ -499,7 +499,7 @@ footer::before {
     }
     
     #bollards_img img:hover {
-        content: url('../AssertsAll/garden_lights/light_garden\ lights.webpg');
+        content: url('../AssertsAll/garden lights/light_garden lights-optimized.webp');
     }
     .footer-links {
         display: block; /* Enables flex layout for easy alignment */

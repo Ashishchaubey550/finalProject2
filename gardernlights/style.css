@@ -288,11 +288,11 @@ nav {
 }
 
 #polls_img img:hover{
-    content: url('../AssertsAll/bollards/Bollards.webp'); /* Change image on hover */
+    content: url('../AssertsAll/bollards/without\ light-bollards-optimized.webp'); /* Change image on hover */
 }
 
 #bollards_img img:hover {
-    content: url('../AssertsAll/footlights/light_foot\ lights.webp'); /* Change image on hover */
+    content: url('../AssertsAll/footlights/light_foot\ lights-optimized.webp'); /* Change image on hover */
 }
 .hover-text {
     display: inline;
@@ -569,11 +569,11 @@ footer-logo {
 
     }
     #polls_img img:hover {
-        content: url('../AssertsAll/poles/light_Poles.webp');
+        content: url('../AssertsAll/bollards/Bollards-optimized.webp');
     }
     
     #bollards_img img:hover {
-        content: url('../AssertsAll/garden_lights/light_garden\ lights.webpg');
+        content: url('../AssertsAll//footlights/light_foot lights-optimized.webp');
     }
     .footer-links {
         display: block; /* Enables flex layout for easy alignment */

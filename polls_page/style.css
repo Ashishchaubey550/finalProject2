@@ -75,7 +75,17 @@ nav {
     overflow: hidden;
     transition: all ease 0.4s;
 }
-
+.menu-icon i {
+    background: linear-gradient(to right, #f9f295, #e0aa3e, #b88a44); /* Gradient background */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    color: transparent; /* Make the text transparent so that the background shows through */
+    text-decoration: none; /* Remove underline */ 
+    font-size: 40px;
+    display: none;
+}
+.menu-icon{
+    display: none;
+}
 /* Dropdown Styling */
 .dropdown {
     position: relative;
@@ -338,41 +348,85 @@ footer::before {
     margin-top: 10px;
 }
 
-
+#gototop{
+    display: none;
+}
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
-    #product_heading {
-        font-size: 2vh;
-    }
     #center_hero{
         height: 90vh;
     }
     #polls_bollards {
-        flex-wrap: nowrap;
         padding: 30px;
         flex-direction: column;
         gap: 20px;
+        flex-wrap: nowrap;
     }
 
     #polls_img, #bollards_img {
         width: 70%;
         height: auto;
-        padding-left: 10px;
-        padding-right: 15px;
     }
     #LEDPostTop_img , #LEDDropDown_img{
         width: 70%;
         height: auto;
-        padding-left: 10px;
-        padding-right: 15px;
     }
+    .hover-text {
+        display: block; 
+        text-align: center; 
+        font-size: 3vh; 
+    }   
 
 } 
-@media (max-width: 480px) {
-    #product_heading {
-        font-size: 3vh;
+@media (max-width: 600px) {
+    #logo_img{
+        height: 110px;
+        width: 180px;
+        object-fit: cover;
+        margin-top: 0;
     }
+    #nav-part2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #032A25;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 30%;
+        right: 0;
+        z-index: 2;
+        overflow: hidden;
+        transition: .3s ease-out;
+    }
+    #nav-part2 a {
+        background: linear-gradient(to right, #f9f295, #e0aa3e, #b88a44); /* Gradient background */
+        -webkit-background-clip: text; /* Clip the background to the text */
+        color: transparent; /* Make the text transparent so that the background shows through */
+        text-decoration: none; /* Remove underline */
+    }
+    .menu-icon {
+        display: block;
+        z-index: 2;
+    }
+    .menu-icon i{
+        display: block;
+    } 
+    #gototop{
+        display: block;
+        /* margin: auto; */
+        height: 50px;
+        width: 100px;
+        background-color: #111;
+        text-decoration: none;
+        border: 3px solid #032A25;
+        background: linear-gradient(to right, #f9f295, #e0aa3e, #b88a44); /* Gradient background */
+        -webkit-background-clip: text; /* Clip the background to the text */
+        color: transparent; /* Make the text transparent so that the background shows through */
+        text-decoration: none; /* Remove underline */ 
+    } 
     #center_hero{
         height: 90vh;
     }
@@ -382,25 +436,25 @@ footer::before {
         width: 100%;
     }
     #polls_img, #bollards_img {
-        width: 95vw;
+        width: 100%;
         height: 100%;
         position: relative;
         overflow: hidden;
     }
     #polls_img img, #bollards_img img {
-        width: 95vw;
-        height: 150%;
+        width: 100%;
+        height: 100%;
         transition: transform 0.3s ease-in;
     }
     #LEDPostTop_img , #LEDDropDown_img{
-        width: 95vw;
+        width: 100%;
         height: 100%;
         position: relative;
         overflow: hidden;
     }
     #LEDPostTop_img img , #LEDDropDown_img img{
-        width: 95vw;
-        height: 150%;
+        width: 100%;
+        height: 100%;
         transition: transform 0.3s ease-in;
     }
     .hover-text {
@@ -436,12 +490,19 @@ footer::before {
         background-color: red;
     }
     .footer-logo {
-        width: 70%; 
-        text-align: center; /* Center the logo content */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 50px;
+        width: 100%; 
     }
     .footer-logo img{
         height: 100%;
         width: 100%;
+    }
+    #footerlogo{
+        width: 50%;
+        left: 0;
     }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
