@@ -428,7 +428,7 @@ footer::before {
         text-decoration: none; /* Remove underline */ 
     } 
     #center_hero{
-        height: 90vh;
+        height: 120vh;
     }
     #polls_bollards{
         margin-top: -30px;
@@ -436,7 +436,7 @@ footer::before {
         width: 100%;
     }
     #polls_img, #bollards_img {
-        width: 100%;
+        width: 85%;
         height: 100%;
         position: relative;
         overflow: hidden;
@@ -447,7 +447,7 @@ footer::before {
         transition: transform 0.3s ease-in;
     }
     #LEDPostTop_img , #LEDDropDown_img{
-        width: 100%;
+        width: 85%;
         height: 100%;
         position: relative;
         overflow: hidden;
@@ -465,17 +465,17 @@ footer::before {
 
     }
     #polls_img img:hover{
-        content: url('../AssertsAll/decor.poles/light_poles.webp'); /* Change image on hover */
+        content: url('../AssertsAll/decor.poles/light_poles-optimized.webp'); /* Change image on hover */
     }
     
     #bollards_img img:hover{
-        content: url('../AssertsAll/brackets/light_brackets.webp'); /* Change image on hover */
+        content: url('../AssertsAll/brackets/light_brackets-optimized.webp'); /* Change image on hover */
     }
     #LEDPostTop_img img:hover{
-        content: url('../AssertsAll/ledposttop/light_LED\ Post\ top.webp'); /* Change image on hover */
+        content: url('../AssertsAll/ledposttop/light_LED\ Post\ top-optimized.webp'); /* Change image on hover */
     }
     #LEDDropDown_img img:hover{
-        content: url('../AssertsAll/leddropdown/light_LED\ Drop\ Down.webp'); /* Change image on hover */
+        content: url('../AssertsAll/leddropdown/light_LED\ Drop\ Down-optimized.webp'); /* Change image on hover */
     }
     .footer-links {
         display: block; /* Enables flex layout for easy alignment */

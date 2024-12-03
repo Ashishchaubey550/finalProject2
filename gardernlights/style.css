@@ -551,7 +551,7 @@ footer-logo {
         width: 100%;
     }
     #polls_img, #bollards_img {
-        width: 100%;
+        width: 90%;
         height: 40vh;
         position: relative;
         overflow: hidden;
