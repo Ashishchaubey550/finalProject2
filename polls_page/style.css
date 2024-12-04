@@ -436,25 +436,25 @@ footer::before {
         width: 100%;
     }
     #polls_img, #bollards_img {
-        width: 90%;
-        height: 40vh;
+        width: 300px;
+        height: 100%;
         position: relative;
         overflow: hidden;
     }
     #polls_img img, #bollards_img img {
-        width: 40vh;
-        height: 40vh;        
+        width: 300px;
+        height: 100%;        
         transition: transform 0.3s ease-in;
     }
     #LEDPostTop_img , #LEDDropDown_img{
-        width: 90%;
-        height: 40vh;       
+        width: 300px;
+        height: 100%;       
         position: relative;
         overflow: hidden;
     }
     #LEDPostTop_img img , #LEDDropDown_img img{
-        width: 40vh;
-        height: 40vh;        
+        width: 300px;
+        height: 100%;        
         transition: transform 0.3s ease-in;
     }
     .hover-text {
