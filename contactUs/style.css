@@ -701,7 +701,8 @@ footer-logo {
     #QRscanner img{
         height: 50%;  /* Make height equal to width to maintain a square shape */
         width: 50%;
-        border: none;
+        padding-top: 15px;
+        padding-bottom: 15px;
         object-fit: cover; /* Ensures the image fits within the square without distortion */
     }
 
