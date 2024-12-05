@@ -694,15 +694,31 @@ footer-logo {
         align-items: center;
     } */
 
-    #QRscanner{
+    /* #QRscanner{
         font-size: 2.4vw;
+        
+    } */
+    #QRscanner{
+        font-family: "Poppins", sans-serif;
+        height: 550px;
+        width: 550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.4vw;
+        font-style: normal;
         font-weight: 300;
     }
-    #QRscanner img{
-        height: 50%;  /* Make height equal to width to maintain a square shape */
+    /*
+    #QRscanner h1{
+        margin-top: 15px;
+        font-weight: 500;
+    } */
+    #QRscanner img {
+        height: 58%;  /* Make height equal to width to maintain a square shape */
         width: 50%;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        border: 2px solid goldenrod;
         object-fit: cover; /* Ensures the image fits within the square without distortion */
     }
 
