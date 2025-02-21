@@ -288,7 +288,7 @@ nav {
 }
 
 #polls_img img:hover{
-    content: url('../AssertsAll/bollards/without\ light-bollards-optimized.webp'); /* Change image on hover */
+    content: url('../AssertsAll/bollards/Bollards-optimized.webp'); /* Change image on hover */
 }
 
 #bollards_img img:hover {
