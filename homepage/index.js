@@ -25,18 +25,19 @@
 
 
 // Get the elements
-// Get the elements
 var loader = document.querySelector("#preloader");
 var mainContent = document.querySelector("#main");
 var video = document.querySelector("video");
 
 // After 6 seconds, hide the preloader and show the main content
 setTimeout(function() {
-    loader.classList.add('hide'); // Hide the preloader
-    mainContent.classList.add('visible'); // Show the main content
+    loader.style.top = "-100%"; // Move the preloader out of view
+    loader.style.transition = "top 1s ease-in"; // Smooth transition
+    mainContent.classList.add('visible'); // Add class to show the main content
 
     // Restart the video from the beginning
-    video.currentTime = 0;
-    video.play();
+    video.currentTime = -20;
+    video.play(5000); // Play the video
 }, 6500);
+
     

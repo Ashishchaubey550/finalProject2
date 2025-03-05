@@ -1,144 +1,157 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
-html, body {
+html,body{
     width: 100%;
     height: 100%;
 }
-
-video {
+video{
     width: 100%;
-    height: 100%;
+    height: 100%; 
     object-fit: cover;
-    transition: opacity 0.1s ease;
+    transition: all ease 0.1s;  
 }
-
 body.loading #main {
     display: none;
 }
-
-#preloader {
+#preloader{
     height: 100%;
     width: 100%;
     background-color: black;
     position: fixed;
     z-index: 2999;
-    transition: opacity 1s ease, visibility 1s ease;
+    transition: all linear 0.5s;
     top: 0;
     left: 0;
     text-transform: uppercase;
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 1;
-    visibility: visible;
 }
-
-#preloader.hide {
-    opacity: 0;
-    visibility: hidden;
-}
-
-#preloader h1 {
+#preloader h1{
     font-size: 2.3vw;
     color: transparent;
     background: whitesmoke;
     -webkit-background-clip: text;
     position: absolute;
     opacity: 0;
-    animation: load 1.8s linear 1s forwards;
+    animation-name: load;
+    animation-duration: 1.8s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
     font-family: "Poppins", sans-serif;
 }
-
-#preloader h1:nth-child(2) {
+#preloader h1:nth-child(2){
     animation-delay: 2.7s;
 }
-
-#preloader h1:nth-child(3) {
+#preloader h1:nth-child(3){
     animation-delay: 4.5s;
 }
-
 @keyframes load {
-    0% { opacity: 0; transform: translateY(20px); }
-    10% { opacity: 1; transform: translateY(0); }
-    90% { opacity: 1; transform: translateY(0); }
-    100% { opacity: 0; transform: translateY(-20px); }
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
 }
-
-#video-container {
-    width: 100%;
-    height: 100vh;
+#video-container{
+    width: 100%; 
+    height: 100vh; 
+    background-color: transparent;
+    /* background-color: #032a25; */
     overflow: hidden;
     position: relative;
+    object-fit: cover;
 }
-
+a{
+    cursor: pointer;
+}
 #view-product {
-    border-radius: 20px;
-    width: clamp(120px, 9vw, 200px);
-    height: clamp(40px, 3vw, 60px);
+    border-radius: 20px; 
+    width: 9vw; 
+    height: 3vw; 
+    /* background-color: transparent; */
     color: whitesmoke;
-    font-size: clamp(12px, 1vw, 16px);
-    bottom: 75px;
-    left: 50%;
-    transform: translateX(-50%);
+    font-size: 1vw;
+    bottom: 30px;
+    margin-bottom: 8px;
+    margin-left: 46%;
     text-transform: uppercase;
     position: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     z-index: 10;
     border: 3px solid whitesmoke;
     font-family: "Poppins", sans-serif;
-    transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
-#view-product:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-    border-color: rgba(255, 255, 255, 0.8);
-}
-
-#view-product:active {
-    transform: scale(0.95);
-}
 
 /* Mobile Responsiveness */
-@media (max-width: 768px) {
-    #preloader h1 {
+ @media (max-width: 768px) {
+    #preloader h1{
         font-size: 5vw;
     }
-
-    #view-product {
-        width: 22vw;
-        height: 7vw;
+    #view-product{
+        border-radius: 20px; 
+        width: 22vw; 
+        height: 7vw; 
+        padding: 10px 5px 10px 5px;
+        /* background-color: transparent; */
+        color: whitesmoke;
         font-size: 2.5vw;
-    }
-}
+        bottom: 30px;
+        /* margin-bottom: 108px;
+        margin-left: 46%; */
 
+    }
+} 
 @media (max-width: 480px) {
-    #preloader h1 {
+    #preloader h1{
         font-size: 4vw;
     }
-
-    #view-product {
-        width: 30vw;
-        height: 9vw;
+    #view-product{
+        border-radius: 20px; 
+        width: 30vw; 
+        height: 9vw; 
+        /* background-color: transparent; */
+        color: whitesmoke;
         font-size: 3.2vw;
+        padding: 10px 5px 10px 5px;
+        bottom: 30px;
+        /* margin-bottom: 8px; */
+        margin-left: 35%; 
+        text-transform: uppercase;
     }
 }
-
 @media (min-width: 768px) and (max-width: 1024px) {
-    #preloader h1 {
+    #preloader h1{
         font-size: 5vw;
     }
+    #view-product{
+        border-radius: 20px; 
+        width: 17vw; 
+        height: 6vw; 
+        /* background-color: transparent; */
+        color: whitesmoke;
+        padding: 10px 5px 10px 5px;
 
-    #view-product {
-        width: 17vw;
-        height: 6vw;
         font-size: 1.8vw;
+        bottom: 30px;
+        /* margin-bottom: 8px;
+        margin-left: 46%; */
     }
 }
