@@ -27,7 +27,8 @@
 // Get the elements
 var loader = document.querySelector("#preloader");
 var mainContent = document.querySelector("#main");
-var video = document.querySelector("video");
+var video = document.querySelector("#background-video");
+var playButton = document.querySelector("#play-button");
 
 setTimeout(function() {
     loader.style.top = "-100%";
@@ -37,4 +38,15 @@ setTimeout(function() {
     video.currentTime = 0; // Restart video
     video.play();
 }, 6500);
-    
+
+// Fallback for iOS autoplay issues
+video.addEventListener('loadeddata', function() {
+    if (video.paused) {
+        playButton.style.display = 'block';
+    }
+});
+
+playButton.addEventListener('click', function() {
+    video.play();
+    playButton.style.display = 'none';
+});
