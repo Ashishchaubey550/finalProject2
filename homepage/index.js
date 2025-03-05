@@ -57,3 +57,6 @@ video.addEventListener('pause', function() {
     console.log("Video is paused");
     // Optionally, show a play button to the user
 });
+document.addEventListener('click', function() {
+    video.play();
+});
