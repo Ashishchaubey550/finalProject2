@@ -155,3 +155,16 @@ a{
         margin-left: 46%; */
     }
 }
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    #preloader h1 {
+        font-size: 5vw;
+    }
+    #view-product {
+        width: 40vw;
+        height: 10vw;
+        font-size: 4vw;
+        bottom: 20px;
+        margin-left: 30%;
+    }
+}
