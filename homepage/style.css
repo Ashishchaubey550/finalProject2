@@ -1,25 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
-html,body{
+html, body {
     width: 100%;
     height: 100%;
 }
-video{
+
+video {
     width: 100%;
-    height: 100%; 
+    height: 100%;
     object-fit: cover;
-    transition: all ease 0.1s;  
+    transition: all ease 0.1s;
 }
+
 body.loading #main {
     display: none;
 }
-#preloader{
+
+#preloader {
     height: 100%;
     width: 100%;
     background-color: black;
@@ -33,7 +36,8 @@ body.loading #main {
     align-items: center;
     justify-content: center;
 }
-#preloader h1{
+
+#preloader h1 {
     font-size: 2.3vw;
     color: transparent;
     background: whitesmoke;
@@ -46,43 +50,47 @@ body.loading #main {
     animation-timing-function: linear;
     font-family: "Poppins", sans-serif;
 }
-#preloader h1:nth-child(2){
+
+#preloader h1:nth-child(2) {
     animation-delay: 2.7s;
 }
-#preloader h1:nth-child(3){
+
+#preloader h1:nth-child(3) {
     animation-delay: 4.5s;
 }
+
 @keyframes load {
-    0%{
+    0% {
         opacity: 0;
     }
-    10%{
+    10% {
         opacity: 1;
     }
-    90%{
+    90% {
         opacity: 1;
     }
-    100%{
+    100% {
         opacity: 0;
     }
 }
-#video-container{
-    width: 100%; 
-    height: 100vh; 
+
+#video-container {
+    width: 100%;
+    height: 100vh;
     background-color: transparent;
-    /* background-color: #032a25; */
     overflow: hidden;
     position: relative;
     object-fit: cover;
 }
-a{
+
+a {
     cursor: pointer;
 }
+
 #view-product {
-    border-radius: 20px; 
-    width: 9vw; 
-    height: 3vw; 
-    /* background-color: transparent; */
+    border-radius: 20px;
+    width: 9vw;
+    height: 3vw;
     color: whitesmoke;
     font-size: 1vw;
     bottom: 75px;
@@ -99,72 +107,44 @@ a{
     font-family: "Poppins", sans-serif;
 }
 
-
-/* Mobile Responsiveness */
- @media (max-width: 768px) {
-    #preloader h1{
-        font-size: 5vw;
-    }
-    #view-product{
-        border-radius: 20px; 
-        width: 22vw; 
-        height: 7vw; 
-        padding: 10px 5px 10px 5px;
-        /* background-color: transparent; */
-        color: whitesmoke;
-        font-size: 2.5vw;
-        bottom: 30px;
-        /* margin-bottom: 108px;
-        margin-left: 46%; */
-
-    }
-} 
-@media (max-width: 480px) {
-    #preloader h1{
-        font-size: 4vw;
-    }
-    #view-product{
-        border-radius: 20px; 
-        width: 30vw; 
-        height: 9vw; 
-        /* background-color: transparent; */
-        color: whitesmoke;
-        font-size: 3.2vw;
-        padding: 10px 5px 10px 5px;
-        bottom: 30px;
-        /* margin-bottom: 8px; */
-        margin-left: 35%; 
-        text-transform: uppercase;
-    }
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-    #preloader h1{
-        font-size: 5vw;
-    }
-    #view-product{
-        border-radius: 20px; 
-        width: 17vw; 
-        height: 6vw; 
-        /* background-color: transparent; */
-        color: whitesmoke;
-        padding: 10px 5px 10px 5px;
-
-        font-size: 1.8vw;
-        bottom: 30px;
-        /* margin-bottom: 8px;
-        margin-left: 46%; */
-    }
-}
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
     #preloader h1 {
         font-size: 5vw;
     }
+
     #view-product {
-        width: 40vw;
-        height: 10vw;
+        width: 22vw;
+        height: 7vw;
+        padding: 10px 5px 10px 5px;
+        font-size: 2.5vw;
+        bottom: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    #preloader h1 {
         font-size: 4vw;
-        bottom: 20px;
-        margin-left: 30%;
+    }
+
+    #view-product {
+        width: 30vw;
+        height: 9vw;
+        font-size: 3.2vw;
+        bottom: 30px;
+        margin-left: 35%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #preloader h1 {
+        font-size: 5vw;
+    }
+
+    #view-product {
+        width: 17vw;
+        height: 6vw;
+        font-size: 1.8vw;
+        bottom: 30px;
     }
 }
