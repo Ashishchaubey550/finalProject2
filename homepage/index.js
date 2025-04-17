@@ -1,39 +1,97 @@
-var loader = document.querySelector("#preloader");
-var mainContent = document.querySelector("#main");
-var video = document.querySelector("video");
+document.addEventListener('DOMContentLoaded', () => {
+    const loader = document.querySelector("#preloader");
+    const mainContent = document.querySelector("#main");
+    const video = document.querySelector("video");
+    let videoReady = false;
 
-// Ensure video is loaded before playing
-video.addEventListener('loadeddata', function () {
-    setTimeout(function () {
-        loader.style.top = "-100%";
-        loader.style.transition = "top 1s ease-in";
+    // Initialize video properties
+    video.muted = true;
+    video.loop = true;
+    video.playsInline = true;
 
-        // Remove preloader from DOM after animation
-        loader.addEventListener('transitionend', function () {
+    // Preloader timeout (6500ms)
+    const preloaderTimeout = setTimeout(() => {
+        hidePreloader();
+        initializeVideoPlayback();
+    }, 6500);
+
+    function hidePreloader() {
+        loader.style.transition = "opacity 1s ease-out";
+        loader.style.opacity = '0';
+        setTimeout(() => {
             loader.remove();
+            mainContent.classList.add('visible');
+        }, 1000);
+    }
+
+    function initializeVideoPlayback() {
+        // Always reset to beginning
+        video.currentTime = 0;
+        
+        const playPromise = video.play();
+        playPromise.catch(error => {
+            handleAutoplayError();
         });
+    }
 
-        mainContent.classList.add('visible');
-        video.currentTime = 0; // Restart video
-        video.play().catch(error => {
-            console.error("Video autoplay was prevented:", error);
-            // Handle the error, e.g., show a play button to the user
+    function handleAutoplayError() {
+        const playButton = createPlayButton();
+        document.body.appendChild(playButton);
+        
+        playButton.addEventListener('click', () => {
+            video.currentTime = 0;
+            video.play().then(() => {
+                playButton.remove();
+            }).catch(console.error);
         });
-    }, 6500); // Adjust the delay as needed
-});
+    }
 
-// Fallback for browsers that block autoplay
-video.addEventListener('play', function () {
-    console.log("Video is playing");
-});
+    function createPlayButton() {
+        const btn = document.createElement('div');
+        btn.innerHTML = 'Tap to Start';
+        btn.style.cssText = `
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px 25px;
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            cursor: pointer;
+            z-index: 1000;
+            border-radius: 30px;
+            font-size: 1.2rem;
+            font-family: Arial, sans-serif;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        `;
+        return btn;
+    }
 
-video.addEventListener('pause', function () {
-    console.log("Video is paused");
-    // Optionally, show a play button to the user
-});
+    // Video readiness check
+    video.addEventListener('loadedmetadata', () => {
+        videoReady = true;
+    });
 
-// Unmute and play video on user interaction
-document.addEventListener('click', function () {
-    video.muted = false; // Unmute the video
-    video.play(); // Play the video
+    // Fallback if video metadata takes too long
+    setTimeout(() => {
+        if (!videoReady) {
+            console.warn('Video metadata not loaded yet');
+            video.load();
+        }
+    }, 5000);
+
+    // Unmute functionality
+    document.addEventListener('click', () => {
+        if (video.muted) {
+            video.muted = false;
+        }
+    });
+
+    // Optional: Reset video on page visibility change
+    document.addEventListener('visibilitychange', () => {
+        if (document.visibilityState === 'visible') {
+            video.currentTime = 0;
+            video.play();
+        }
+    });
 });
