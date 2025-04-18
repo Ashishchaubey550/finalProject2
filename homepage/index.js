@@ -46,26 +46,26 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    function createPlayButton() {
-        const btn = document.createElement('div');
-        btn.innerHTML = 'Tap to Start';
-        btn.style.cssText = `
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            padding: 10px 25px;
-            background: rgba(0, 0, 0, 0.8);
-            color: #fff;
-            cursor: pointer;
-            z-index: 1000;
-            border-radius: 30px;
-            font-size: 1.2rem;
-            font-family: Arial, sans-serif;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-        `;
-        return btn;
-    }
+    // function createPlayButton() {
+    //     const btn = document.createElement('div');
+    //     btn.innerHTML = 'Tap to Start';
+    //     btn.style.cssText = `
+    //         position: fixed;
+    //         top: 50%;
+    //         left: 50%;
+    //         transform: translate(-50%, -50%);
+    //         padding: 10px 25px;
+    //         background: rgba(0, 0, 0, 0.8);
+    //         color: #fff;
+    //         cursor: pointer;
+    //         z-index: 1000;
+    //         border-radius: 30px;
+    //         font-size: 1.2rem;
+    //         font-family: Arial, sans-serif;
+    //         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    //     `;
+    //     return btn;
+    // }
 
     // Video readiness check
     video.addEventListener('loadedmetadata', () => {

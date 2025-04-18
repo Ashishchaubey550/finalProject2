@@ -13,9 +13,9 @@ html, body {
 
 video {
     width: 100%;
-    height: 100%;
+    /* height: 100%;  */
     object-fit: cover;
-    transition: all ease 0.1s;
+    /* transition: all ease 0.1s; */
 }
 
 body.loading #main {
